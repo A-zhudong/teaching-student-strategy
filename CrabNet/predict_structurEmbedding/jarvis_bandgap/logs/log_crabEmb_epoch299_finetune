@@ -1,0 +1,17 @@
+nohup: ignoring input
+Property "jarvis_bandgap" selected for training
+model_name:  jarvis_bandgap_pretrain_epoch299_predict_struEmb_finetunes
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Traceback (most recent call last):
+  File "train_crabnet.py", line 164, in <module>
+    model = get_model(data_dir, mat_prop, classification, \
+  File "train_crabnet.py", line 35, in get_model
+    model.load_network(transfer)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 558, in load_network
+    self.model.load_state_dict(network['weights'])
+KeyError: 'weights'

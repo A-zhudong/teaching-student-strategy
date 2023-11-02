@@ -1,0 +1,320 @@
+nohup: ignoring input
+python: can't open file 'train_crabnet.py': [Errno 2] No such file or directory
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+jarvis_bandgap mae: 0.2
+=====================================================
+embedding saved
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 torch.Size([256])
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+3185 torch.Size([256])
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+7953 torch.Size([256])
+jarvis_bandgap mae: 0.2
+=====================================================
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 torch.Size([256])
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+3185 torch.Size([256])
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+7953 torch.Size([256])
+jarvis_bandgap mae: 0.2
+=====================================================
+39777
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+3185 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+7953 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.2
+=====================================================
+39777
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+3185 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+7953 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.2
+=====================================================
+39777 1310808
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+3185 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+7953 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.2
+=====================================================
+39777 1310808
+embedding saved
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+3185 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+7953 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.2
+=====================================================
+39777 1310808
+embedding saved
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+3185 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+7953 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.2
+=====================================================
+39777 1310808
+10774336
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+3185 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+7953 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.2
+=====================================================
+39777 1310808
+10774336
+embedding saved
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 torch.Size([256]) torch.float32
+Traceback (most recent call last):
+  File "train_crabnet.py", line 167, in <module>
+    model_train, mae_train, embeddings0 = save_results(data_dir, mat_prop, classification,
+  File "train_crabnet.py", line 107, in save_results
+    model, output = get_results(model)
+  File "train_crabnet.py", line 99, in get_results
+    output = model.predict(model.data_loader)  # predict the data saved here
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 514, in predict
+    return (act, pred, formulae, uncert, embeddings.numpy())
+AttributeError: 'dict' object has no attribute 'numpy'
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+Traceback (most recent call last):
+  File "train_crabnet.py", line 167, in <module>
+    model_train, mae_train, embeddings0 = save_results(data_dir, mat_prop, classification,
+  File "train_crabnet.py", line 107, in save_results
+    model, output = get_results(model)
+  File "train_crabnet.py", line 99, in get_results
+    output = model.predict(model.data_loader)  # predict the data saved here
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 492, in predict
+    embeddings.update(dict(zip(formula, embedding.numpy())))
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor to host memory first.
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 (256,) float32
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+3185 (256,) float32
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+7953 (256,) float32
+jarvis_bandgap mae: 0.2
+=====================================================
+39777 1310808
+8252624
+embedding saved
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+3185 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+7953 torch.Size([256]) torch.float32
+jarvis_bandgap mae: 0.2
+=====================================================
+39777 1310808
+10774336
+embedding saved
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+28639 (256,) float32
+jarvis_bandgap mae: 0.0404
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+3185 (256,) float32
+jarvis_bandgap mae: 0.185
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrained_models
+loading data with up to 7 elements in the formula
+7953 (256,) float32
+jarvis_bandgap mae: 0.2
+=====================================================
+39777 1310808
+8252624
+embedding saved

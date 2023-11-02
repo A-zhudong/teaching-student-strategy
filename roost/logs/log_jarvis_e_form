@@ -1,0 +1,923 @@
+nohup: ignoring input
+The model will run on the cuda device
+using independent test set: /home/zd/zd/teaching_net/roost/data/jarvis_e_form/test.csv
+using independent validation set: /home/zd/zd/teaching_net/roost/data/jarvis_e_form/val.csv
+out_hidden [256, 128, 64]
+Total Number of Trainable Parameters: 2,302,096
+Dummy MAE: 0.8271
+Getting Validation Baseline
+Validation Baseline - Eg: MAE 0.834
+Epoch: [1/300]
+Train 		: Eg - Loss 0.379	MAE 0.454	RMSE 0.614	
+Validation 	: Eg - Loss 0.171	MAE 0.310	RMSE 0.433	
+Epoch: [2/300]
+Train 		: Eg - Loss 0.145	MAE 0.271	RMSE 0.394	
+Validation 	: Eg - Loss 0.129	MAE 0.236	RMSE 0.377	
+Epoch: [3/300]
+Train 		: Eg - Loss 0.118	MAE 0.239	RMSE 0.355	
+Validation 	: Eg - Loss 0.114	MAE 0.229	RMSE 0.353	
+Epoch: [4/300]
+Train 		: Eg - Loss 0.099	MAE 0.217	RMSE 0.324	
+Validation 	: Eg - Loss 0.087	MAE 0.197	RMSE 0.309	
+Epoch: [5/300]
+Train 		: Eg - Loss 0.081	MAE 0.191	RMSE 0.293	
+Validation 	: Eg - Loss 0.086	MAE 0.189	RMSE 0.307	
+Epoch: [6/300]
+Train 		: Eg - Loss 0.077	MAE 0.188	RMSE 0.286	
+Validation 	: Eg - Loss 0.073	MAE 0.178	RMSE 0.282	
+Epoch: [7/300]
+Train 		: Eg - Loss 0.070	MAE 0.175	RMSE 0.271	
+Validation 	: Eg - Loss 0.085	MAE 0.215	RMSE 0.306	
+Epoch: [8/300]
+Train 		: Eg - Loss 0.065	MAE 0.166	RMSE 0.260	
+Validation 	: Eg - Loss 0.068	MAE 0.170	RMSE 0.274	
+Epoch: [9/300]
+Train 		: Eg - Loss 0.061	MAE 0.161	RMSE 0.253	
+Validation 	: Eg - Loss 0.058	MAE 0.146	RMSE 0.250	
+Epoch: [10/300]
+Train 		: Eg - Loss 0.059	MAE 0.157	RMSE 0.248	
+Validation 	: Eg - Loss 0.062	MAE 0.145	RMSE 0.262	
+Epoch: [11/300]
+Train 		: Eg - Loss 0.055	MAE 0.150	RMSE 0.238	
+Validation 	: Eg - Loss 0.061	MAE 0.151	RMSE 0.260	
+Epoch: [12/300]
+Train 		: Eg - Loss 0.054	MAE 0.148	RMSE 0.235	
+Validation 	: Eg - Loss 0.061	MAE 0.152	RMSE 0.260	
+Epoch: [13/300]
+Train 		: Eg - Loss 0.051	MAE 0.146	RMSE 0.231	
+Validation 	: Eg - Loss 0.060	MAE 0.149	RMSE 0.255	
+Epoch: [14/300]
+Train 		: Eg - Loss 0.049	MAE 0.142	RMSE 0.227	
+Validation 	: Eg - Loss 0.065	MAE 0.152	RMSE 0.265	
+Epoch: [15/300]
+Train 		: Eg - Loss 0.048	MAE 0.140	RMSE 0.223	
+Validation 	: Eg - Loss 0.065	MAE 0.148	RMSE 0.267	
+Epoch: [16/300]
+Train 		: Eg - Loss 0.046	MAE 0.136	RMSE 0.220	
+Validation 	: Eg - Loss 0.058	MAE 0.153	RMSE 0.252	
+Epoch: [17/300]
+Train 		: Eg - Loss 0.046	MAE 0.137	RMSE 0.217	
+Validation 	: Eg - Loss 0.057	MAE 0.138	RMSE 0.250	
+Epoch: [18/300]
+Train 		: Eg - Loss 0.045	MAE 0.137	RMSE 0.217	
+Validation 	: Eg - Loss 0.056	MAE 0.160	RMSE 0.247	
+Epoch: [19/300]
+Train 		: Eg - Loss 0.044	MAE 0.134	RMSE 0.212	
+Validation 	: Eg - Loss 0.052	MAE 0.138	RMSE 0.240	
+Epoch: [20/300]
+Train 		: Eg - Loss 0.042	MAE 0.130	RMSE 0.208	
+Validation 	: Eg - Loss 0.056	MAE 0.139	RMSE 0.247	
+Epoch: [21/300]
+Train 		: Eg - Loss 0.041	MAE 0.131	RMSE 0.206	
+Validation 	: Eg - Loss 0.050	MAE 0.137	RMSE 0.235	
+Epoch: [22/300]
+Train 		: Eg - Loss 0.040	MAE 0.129	RMSE 0.205	
+Validation 	: Eg - Loss 0.058	MAE 0.142	RMSE 0.253	
+Epoch: [23/300]
+Train 		: Eg - Loss 0.040	MAE 0.127	RMSE 0.202	
+Validation 	: Eg - Loss 0.056	MAE 0.156	RMSE 0.247	
+Epoch: [24/300]
+Train 		: Eg - Loss 0.037	MAE 0.123	RMSE 0.197	
+Validation 	: Eg - Loss 0.057	MAE 0.150	RMSE 0.251	
+Epoch: [25/300]
+Train 		: Eg - Loss 0.037	MAE 0.123	RMSE 0.195	
+Validation 	: Eg - Loss 0.053	MAE 0.140	RMSE 0.242	
+Epoch: [26/300]
+Train 		: Eg - Loss 0.037	MAE 0.123	RMSE 0.195	
+Validation 	: Eg - Loss 0.052	MAE 0.134	RMSE 0.238	
+Epoch: [27/300]
+Train 		: Eg - Loss 0.035	MAE 0.119	RMSE 0.189	
+Validation 	: Eg - Loss 0.053	MAE 0.141	RMSE 0.239	
+Epoch: [28/300]
+Train 		: Eg - Loss 0.034	MAE 0.120	RMSE 0.188	
+Validation 	: Eg - Loss 0.062	MAE 0.159	RMSE 0.262	
+Epoch: [29/300]
+Train 		: Eg - Loss 0.033	MAE 0.117	RMSE 0.186	
+Validation 	: Eg - Loss 0.050	MAE 0.126	RMSE 0.233	
+Epoch: [30/300]
+Train 		: Eg - Loss 0.032	MAE 0.115	RMSE 0.183	
+Validation 	: Eg - Loss 0.051	MAE 0.131	RMSE 0.236	
+Epoch: [31/300]
+Train 		: Eg - Loss 0.032	MAE 0.114	RMSE 0.181	
+Validation 	: Eg - Loss 0.049	MAE 0.130	RMSE 0.233	
+Epoch: [32/300]
+Train 		: Eg - Loss 0.031	MAE 0.113	RMSE 0.178	
+Validation 	: Eg - Loss 0.048	MAE 0.125	RMSE 0.230	
+Epoch: [33/300]
+Train 		: Eg - Loss 0.031	MAE 0.114	RMSE 0.179	
+Validation 	: Eg - Loss 0.045	MAE 0.121	RMSE 0.222	
+Epoch: [34/300]
+Train 		: Eg - Loss 0.029	MAE 0.111	RMSE 0.173	
+Validation 	: Eg - Loss 0.056	MAE 0.143	RMSE 0.247	
+Epoch: [35/300]
+Train 		: Eg - Loss 0.028	MAE 0.109	RMSE 0.171	
+Validation 	: Eg - Loss 0.059	MAE 0.141	RMSE 0.253	
+Epoch: [36/300]
+Train 		: Eg - Loss 0.027	MAE 0.105	RMSE 0.166	
+Validation 	: Eg - Loss 0.051	MAE 0.137	RMSE 0.236	
+Epoch: [37/300]
+Train 		: Eg - Loss 0.026	MAE 0.103	RMSE 0.163	
+Validation 	: Eg - Loss 0.053	MAE 0.134	RMSE 0.242	
+Epoch: [38/300]
+Train 		: Eg - Loss 0.027	MAE 0.108	RMSE 0.168	
+Validation 	: Eg - Loss 0.055	MAE 0.143	RMSE 0.246	
+Epoch: [39/300]
+Train 		: Eg - Loss 0.026	MAE 0.105	RMSE 0.163	
+Validation 	: Eg - Loss 0.047	MAE 0.126	RMSE 0.228	
+Epoch: [40/300]
+Train 		: Eg - Loss 0.025	MAE 0.102	RMSE 0.160	
+Validation 	: Eg - Loss 0.049	MAE 0.120	RMSE 0.232	
+Epoch: [41/300]
+Train 		: Eg - Loss 0.025	MAE 0.103	RMSE 0.160	
+Validation 	: Eg - Loss 0.046	MAE 0.121	RMSE 0.225	
+Epoch: [42/300]
+Train 		: Eg - Loss 0.022	MAE 0.099	RMSE 0.153	
+Validation 	: Eg - Loss 0.056	MAE 0.135	RMSE 0.248	
+Epoch: [43/300]
+Train 		: Eg - Loss 0.022	MAE 0.099	RMSE 0.152	
+Validation 	: Eg - Loss 0.051	MAE 0.121	RMSE 0.238	
+Epoch: [44/300]
+Train 		: Eg - Loss 0.022	MAE 0.099	RMSE 0.152	
+Validation 	: Eg - Loss 0.048	MAE 0.134	RMSE 0.228	
+Epoch: [45/300]
+Train 		: Eg - Loss 0.021	MAE 0.097	RMSE 0.148	
+Validation 	: Eg - Loss 0.049	MAE 0.124	RMSE 0.232	
+Epoch: [46/300]
+Train 		: Eg - Loss 0.020	MAE 0.093	RMSE 0.145	
+Validation 	: Eg - Loss 0.055	MAE 0.129	RMSE 0.246	
+Epoch: [47/300]
+Train 		: Eg - Loss 0.020	MAE 0.094	RMSE 0.144	
+Validation 	: Eg - Loss 0.056	MAE 0.131	RMSE 0.248	
+Epoch: [48/300]
+Train 		: Eg - Loss 0.021	MAE 0.097	RMSE 0.147	
+Validation 	: Eg - Loss 0.048	MAE 0.118	RMSE 0.231	
+Epoch: [49/300]
+Train 		: Eg - Loss 0.019	MAE 0.093	RMSE 0.141	
+Validation 	: Eg - Loss 0.049	MAE 0.114	RMSE 0.232	
+Epoch: [50/300]
+Train 		: Eg - Loss 0.018	MAE 0.091	RMSE 0.138	
+Validation 	: Eg - Loss 0.047	MAE 0.121	RMSE 0.226	
+Epoch: [51/300]
+Train 		: Eg - Loss 0.019	MAE 0.091	RMSE 0.140	
+Validation 	: Eg - Loss 0.048	MAE 0.125	RMSE 0.230	
+Epoch: [52/300]
+Train 		: Eg - Loss 0.017	MAE 0.087	RMSE 0.132	
+Validation 	: Eg - Loss 0.044	MAE 0.115	RMSE 0.219	
+Epoch: [53/300]
+Train 		: Eg - Loss 0.018	MAE 0.092	RMSE 0.138	
+Validation 	: Eg - Loss 0.049	MAE 0.120	RMSE 0.233	
+Epoch: [54/300]
+Train 		: Eg - Loss 0.017	MAE 0.088	RMSE 0.132	
+Validation 	: Eg - Loss 0.051	MAE 0.116	RMSE 0.237	
+Epoch: [55/300]
+Train 		: Eg - Loss 0.015	MAE 0.083	RMSE 0.125	
+Validation 	: Eg - Loss 0.050	MAE 0.127	RMSE 0.235	
+Epoch: [56/300]
+Train 		: Eg - Loss 0.015	MAE 0.084	RMSE 0.126	
+Validation 	: Eg - Loss 0.043	MAE 0.112	RMSE 0.217	
+Epoch: [57/300]
+Train 		: Eg - Loss 0.015	MAE 0.084	RMSE 0.126	
+Validation 	: Eg - Loss 0.051	MAE 0.123	RMSE 0.237	
+Epoch: [58/300]
+Train 		: Eg - Loss 0.016	MAE 0.085	RMSE 0.127	
+Validation 	: Eg - Loss 0.053	MAE 0.121	RMSE 0.242	
+Epoch: [59/300]
+Train 		: Eg - Loss 0.015	MAE 0.083	RMSE 0.124	
+Validation 	: Eg - Loss 0.048	MAE 0.116	RMSE 0.229	
+Epoch: [60/300]
+Train 		: Eg - Loss 0.015	MAE 0.084	RMSE 0.127	
+Validation 	: Eg - Loss 0.046	MAE 0.113	RMSE 0.225	
+Epoch: [61/300]
+Train 		: Eg - Loss 0.013	MAE 0.077	RMSE 0.117	
+Validation 	: Eg - Loss 0.045	MAE 0.109	RMSE 0.224	
+Epoch: [62/300]
+Train 		: Eg - Loss 0.012	MAE 0.076	RMSE 0.114	
+Validation 	: Eg - Loss 0.048	MAE 0.113	RMSE 0.229	
+Epoch: [63/300]
+Train 		: Eg - Loss 0.012	MAE 0.077	RMSE 0.114	
+Validation 	: Eg - Loss 0.044	MAE 0.112	RMSE 0.221	
+Epoch: [64/300]
+Train 		: Eg - Loss 0.012	MAE 0.076	RMSE 0.113	
+Validation 	: Eg - Loss 0.048	MAE 0.124	RMSE 0.229	
+Epoch: [65/300]
+Train 		: Eg - Loss 0.016	MAE 0.085	RMSE 0.128	
+Validation 	: Eg - Loss 0.047	MAE 0.121	RMSE 0.227	
+Epoch: [66/300]
+Train 		: Eg - Loss 0.014	MAE 0.079	RMSE 0.119	
+Validation 	: Eg - Loss 0.051	MAE 0.124	RMSE 0.236	
+Epoch: [67/300]
+Train 		: Eg - Loss 0.013	MAE 0.077	RMSE 0.115	
+Validation 	: Eg - Loss 0.050	MAE 0.116	RMSE 0.234	
+Epoch: [68/300]
+Train 		: Eg - Loss 0.011	MAE 0.074	RMSE 0.109	
+Validation 	: Eg - Loss 0.048	MAE 0.118	RMSE 0.230	
+Epoch: [69/300]
+Train 		: Eg - Loss 0.011	MAE 0.072	RMSE 0.106	
+Validation 	: Eg - Loss 0.046	MAE 0.110	RMSE 0.226	
+Epoch: [70/300]
+Train 		: Eg - Loss 0.010	MAE 0.072	RMSE 0.104	
+Validation 	: Eg - Loss 0.048	MAE 0.117	RMSE 0.231	
+Epoch: [71/300]
+Train 		: Eg - Loss 0.011	MAE 0.073	RMSE 0.107	
+Validation 	: Eg - Loss 0.049	MAE 0.116	RMSE 0.231	
+Epoch: [72/300]
+Train 		: Eg - Loss 0.010	MAE 0.070	RMSE 0.103	
+Validation 	: Eg - Loss 0.043	MAE 0.106	RMSE 0.217	
+Epoch: [73/300]
+Train 		: Eg - Loss 0.009	MAE 0.067	RMSE 0.098	
+Validation 	: Eg - Loss 0.048	MAE 0.115	RMSE 0.229	
+Epoch: [74/300]
+Train 		: Eg - Loss 0.009	MAE 0.069	RMSE 0.100	
+Validation 	: Eg - Loss 0.052	MAE 0.125	RMSE 0.238	
+Epoch: [75/300]
+Train 		: Eg - Loss 0.010	MAE 0.069	RMSE 0.100	
+Validation 	: Eg - Loss 0.045	MAE 0.114	RMSE 0.222	
+Epoch: [76/300]
+Train 		: Eg - Loss 0.010	MAE 0.070	RMSE 0.102	
+Validation 	: Eg - Loss 0.049	MAE 0.113	RMSE 0.231	
+Epoch: [77/300]
+Train 		: Eg - Loss 0.010	MAE 0.069	RMSE 0.100	
+Validation 	: Eg - Loss 0.054	MAE 0.124	RMSE 0.243	
+Epoch: [78/300]
+Train 		: Eg - Loss 0.010	MAE 0.072	RMSE 0.104	
+Validation 	: Eg - Loss 0.047	MAE 0.115	RMSE 0.226	
+Epoch: [79/300]
+Train 		: Eg - Loss 0.009	MAE 0.069	RMSE 0.099	
+Validation 	: Eg - Loss 0.048	MAE 0.113	RMSE 0.230	
+Epoch: [80/300]
+Train 		: Eg - Loss 0.009	MAE 0.066	RMSE 0.095	
+Validation 	: Eg - Loss 0.048	MAE 0.116	RMSE 0.229	
+Epoch: [81/300]
+Train 		: Eg - Loss 0.008	MAE 0.063	RMSE 0.090	
+Validation 	: Eg - Loss 0.045	MAE 0.109	RMSE 0.224	
+Epoch: [82/300]
+Train 		: Eg - Loss 0.007	MAE 0.061	RMSE 0.088	
+Validation 	: Eg - Loss 0.048	MAE 0.113	RMSE 0.230	
+Epoch: [83/300]
+Train 		: Eg - Loss 0.007	MAE 0.062	RMSE 0.089	
+Validation 	: Eg - Loss 0.046	MAE 0.113	RMSE 0.224	
+Epoch: [84/300]
+Train 		: Eg - Loss 0.007	MAE 0.062	RMSE 0.089	
+Validation 	: Eg - Loss 0.043	MAE 0.109	RMSE 0.215	
+Epoch: [85/300]
+Train 		: Eg - Loss 0.008	MAE 0.064	RMSE 0.092	
+Validation 	: Eg - Loss 0.052	MAE 0.130	RMSE 0.240	
+Epoch: [86/300]
+Train 		: Eg - Loss 0.009	MAE 0.068	RMSE 0.096	
+Validation 	: Eg - Loss 0.048	MAE 0.113	RMSE 0.229	
+Epoch: [87/300]
+Train 		: Eg - Loss 0.007	MAE 0.062	RMSE 0.089	
+Validation 	: Eg - Loss 0.050	MAE 0.113	RMSE 0.232	
+Epoch: [88/300]
+Train 		: Eg - Loss 0.009	MAE 0.065	RMSE 0.094	
+Validation 	: Eg - Loss 0.047	MAE 0.118	RMSE 0.228	
+Epoch: [89/300]
+Train 		: Eg - Loss 0.007	MAE 0.061	RMSE 0.086	
+Validation 	: Eg - Loss 0.045	MAE 0.111	RMSE 0.222	
+Epoch: [90/300]
+Train 		: Eg - Loss 0.006	MAE 0.055	RMSE 0.078	
+Validation 	: Eg - Loss 0.045	MAE 0.112	RMSE 0.223	
+Epoch: [91/300]
+Train 		: Eg - Loss 0.006	MAE 0.055	RMSE 0.077	
+Validation 	: Eg - Loss 0.048	MAE 0.115	RMSE 0.230	
+Epoch: [92/300]
+Train 		: Eg - Loss 0.006	MAE 0.058	RMSE 0.081	
+Validation 	: Eg - Loss 0.049	MAE 0.118	RMSE 0.231	
+Epoch: [93/300]
+Train 		: Eg - Loss 0.006	MAE 0.055	RMSE 0.078	
+Validation 	: Eg - Loss 0.047	MAE 0.109	RMSE 0.227	
+Epoch: [94/300]
+Train 		: Eg - Loss 0.007	MAE 0.058	RMSE 0.082	
+Validation 	: Eg - Loss 0.043	MAE 0.111	RMSE 0.217	
+Epoch: [95/300]
+Train 		: Eg - Loss 0.005	MAE 0.055	RMSE 0.077	
+Validation 	: Eg - Loss 0.044	MAE 0.108	RMSE 0.219	
+Epoch: [96/300]
+Train 		: Eg - Loss 0.006	MAE 0.057	RMSE 0.081	
+Validation 	: Eg - Loss 0.046	MAE 0.114	RMSE 0.226	
+Epoch: [97/300]
+Train 		: Eg - Loss 0.006	MAE 0.059	RMSE 0.083	
+Validation 	: Eg - Loss 0.045	MAE 0.108	RMSE 0.221	
+Epoch: [98/300]
+Train 		: Eg - Loss 0.006	MAE 0.055	RMSE 0.079	
+Validation 	: Eg - Loss 0.047	MAE 0.114	RMSE 0.228	
+Epoch: [99/300]
+Train 		: Eg - Loss 0.005	MAE 0.053	RMSE 0.075	
+Validation 	: Eg - Loss 0.048	MAE 0.108	RMSE 0.231	
+Epoch: [100/300]
+Train 		: Eg - Loss 0.005	MAE 0.050	RMSE 0.070	
+Validation 	: Eg - Loss 0.047	MAE 0.111	RMSE 0.226	
+Epoch: [101/300]
+Train 		: Eg - Loss 0.004	MAE 0.049	RMSE 0.068	
+Validation 	: Eg - Loss 0.048	MAE 0.117	RMSE 0.230	
+Epoch: [102/300]
+Train 		: Eg - Loss 0.009	MAE 0.066	RMSE 0.094	
+Validation 	: Eg - Loss 0.051	MAE 0.119	RMSE 0.236	
+Epoch: [103/300]
+Train 		: Eg - Loss 0.005	MAE 0.053	RMSE 0.073	
+Validation 	: Eg - Loss 0.046	MAE 0.111	RMSE 0.225	
+Epoch: [104/300]
+Train 		: Eg - Loss 0.004	MAE 0.050	RMSE 0.069	
+Validation 	: Eg - Loss 0.050	MAE 0.113	RMSE 0.234	
+Epoch: [105/300]
+Train 		: Eg - Loss 0.004	MAE 0.048	RMSE 0.066	
+Validation 	: Eg - Loss 0.046	MAE 0.110	RMSE 0.226	
+Epoch: [106/300]
+Train 		: Eg - Loss 0.004	MAE 0.048	RMSE 0.066	
+Validation 	: Eg - Loss 0.045	MAE 0.110	RMSE 0.223	
+Epoch: [107/300]
+Train 		: Eg - Loss 0.004	MAE 0.050	RMSE 0.070	
+Validation 	: Eg - Loss 0.047	MAE 0.112	RMSE 0.226	
+Epoch: [108/300]
+Train 		: Eg - Loss 0.004	MAE 0.048	RMSE 0.067	
+Validation 	: Eg - Loss 0.045	MAE 0.116	RMSE 0.223	
+Epoch: [109/300]
+Train 		: Eg - Loss 0.012	MAE 0.077	RMSE 0.113	
+Validation 	: Eg - Loss 0.048	MAE 0.119	RMSE 0.231	
+Epoch: [110/300]
+Train 		: Eg - Loss 0.011	MAE 0.071	RMSE 0.105	
+Validation 	: Eg - Loss 0.046	MAE 0.116	RMSE 0.226	
+Epoch: [111/300]
+Train 		: Eg - Loss 0.006	MAE 0.057	RMSE 0.081	
+Validation 	: Eg - Loss 0.046	MAE 0.107	RMSE 0.224	
+Epoch: [112/300]
+Train 		: Eg - Loss 0.005	MAE 0.051	RMSE 0.073	
+Validation 	: Eg - Loss 0.050	MAE 0.117	RMSE 0.235	
+Epoch: [113/300]
+Train 		: Eg - Loss 0.007	MAE 0.058	RMSE 0.084	
+Validation 	: Eg - Loss 0.047	MAE 0.113	RMSE 0.227	
+Epoch: [114/300]
+Train 		: Eg - Loss 0.004	MAE 0.044	RMSE 0.062	
+Validation 	: Eg - Loss 0.044	MAE 0.106	RMSE 0.221	
+Epoch: [115/300]
+Train 		: Eg - Loss 0.003	MAE 0.040	RMSE 0.054	
+Validation 	: Eg - Loss 0.045	MAE 0.105	RMSE 0.222	
+Epoch: [116/300]
+Train 		: Eg - Loss 0.003	MAE 0.039	RMSE 0.052	
+Validation 	: Eg - Loss 0.043	MAE 0.103	RMSE 0.216	
+Epoch: [117/300]
+Train 		: Eg - Loss 0.002	MAE 0.038	RMSE 0.051	
+Validation 	: Eg - Loss 0.045	MAE 0.105	RMSE 0.223	
+Epoch: [118/300]
+Train 		: Eg - Loss 0.003	MAE 0.038	RMSE 0.052	
+Validation 	: Eg - Loss 0.044	MAE 0.106	RMSE 0.219	
+Epoch: [119/300]
+Train 		: Eg - Loss 0.003	MAE 0.042	RMSE 0.057	
+Validation 	: Eg - Loss 0.047	MAE 0.108	RMSE 0.226	
+Epoch: [120/300]
+Train 		: Eg - Loss 0.003	MAE 0.044	RMSE 0.060	
+Validation 	: Eg - Loss 0.048	MAE 0.108	RMSE 0.230	
+Epoch: [121/300]
+Train 		: Eg - Loss 0.003	MAE 0.043	RMSE 0.059	
+Validation 	: Eg - Loss 0.046	MAE 0.115	RMSE 0.225	
+Epoch: [122/300]
+Train 		: Eg - Loss 0.005	MAE 0.051	RMSE 0.070	
+Validation 	: Eg - Loss 0.047	MAE 0.116	RMSE 0.228	
+Epoch: [123/300]
+Train 		: Eg - Loss 0.005	MAE 0.055	RMSE 0.076	
+Validation 	: Eg - Loss 0.047	MAE 0.108	RMSE 0.228	
+Epoch: [124/300]
+Train 		: Eg - Loss 0.004	MAE 0.045	RMSE 0.062	
+Validation 	: Eg - Loss 0.043	MAE 0.106	RMSE 0.217	
+Epoch: [125/300]
+Train 		: Eg - Loss 0.003	MAE 0.044	RMSE 0.060	
+Validation 	: Eg - Loss 0.047	MAE 0.105	RMSE 0.227	
+Epoch: [126/300]
+Train 		: Eg - Loss 0.003	MAE 0.041	RMSE 0.057	
+Validation 	: Eg - Loss 0.046	MAE 0.108	RMSE 0.224	
+Epoch: [127/300]
+Train 		: Eg - Loss 0.003	MAE 0.042	RMSE 0.058	
+Validation 	: Eg - Loss 0.047	MAE 0.106	RMSE 0.227	
+Epoch: [128/300]
+Train 		: Eg - Loss 0.003	MAE 0.043	RMSE 0.058	
+Validation 	: Eg - Loss 0.048	MAE 0.108	RMSE 0.229	
+Epoch: [129/300]
+Train 		: Eg - Loss 0.003	MAE 0.040	RMSE 0.055	
+Validation 	: Eg - Loss 0.046	MAE 0.111	RMSE 0.226	
+Epoch: [130/300]
+Train 		: Eg - Loss 0.003	MAE 0.041	RMSE 0.055	
+Validation 	: Eg - Loss 0.051	MAE 0.109	RMSE 0.233	
+Epoch: [131/300]
+Train 		: Eg - Loss 0.003	MAE 0.040	RMSE 0.054	
+Validation 	: Eg - Loss 0.043	MAE 0.105	RMSE 0.216	
+Epoch: [132/300]
+Train 		: Eg - Loss 0.003	MAE 0.042	RMSE 0.057	
+Validation 	: Eg - Loss 0.046	MAE 0.106	RMSE 0.226	
+Epoch: [133/300]
+Train 		: Eg - Loss 0.013	MAE 0.075	RMSE 0.110	
+Validation 	: Eg - Loss 0.048	MAE 0.120	RMSE 0.229	
+Epoch: [134/300]
+Train 		: Eg - Loss 0.013	MAE 0.074	RMSE 0.111	
+Validation 	: Eg - Loss 0.051	MAE 0.128	RMSE 0.236	
+Epoch: [135/300]
+Train 		: Eg - Loss 0.008	MAE 0.060	RMSE 0.088	
+Validation 	: Eg - Loss 0.047	MAE 0.113	RMSE 0.227	
+Epoch: [136/300]
+Train 		: Eg - Loss 0.005	MAE 0.050	RMSE 0.072	
+Validation 	: Eg - Loss 0.044	MAE 0.108	RMSE 0.219	
+Epoch: [137/300]
+Train 		: Eg - Loss 0.004	MAE 0.046	RMSE 0.066	
+Validation 	: Eg - Loss 0.050	MAE 0.110	RMSE 0.235	
+Epoch: [138/300]
+Train 		: Eg - Loss 0.003	MAE 0.039	RMSE 0.054	
+Validation 	: Eg - Loss 0.047	MAE 0.108	RMSE 0.226	
+Epoch: [139/300]
+Train 		: Eg - Loss 0.002	MAE 0.037	RMSE 0.051	
+Validation 	: Eg - Loss 0.047	MAE 0.106	RMSE 0.227	
+Epoch: [140/300]
+Train 		: Eg - Loss 0.002	MAE 0.032	RMSE 0.043	
+Validation 	: Eg - Loss 0.046	MAE 0.103	RMSE 0.225	
+Epoch: [141/300]
+Train 		: Eg - Loss 0.001	MAE 0.029	RMSE 0.040	
+Validation 	: Eg - Loss 0.045	MAE 0.103	RMSE 0.222	
+Epoch: [142/300]
+Train 		: Eg - Loss 0.002	MAE 0.030	RMSE 0.041	
+Validation 	: Eg - Loss 0.045	MAE 0.104	RMSE 0.222	
+Epoch: [143/300]
+Train 		: Eg - Loss 0.002	MAE 0.031	RMSE 0.041	
+Validation 	: Eg - Loss 0.047	MAE 0.103	RMSE 0.226	
+Epoch: [144/300]
+Train 		: Eg - Loss 0.002	MAE 0.031	RMSE 0.043	
+Validation 	: Eg - Loss 0.046	MAE 0.108	RMSE 0.225	
+Epoch: [145/300]
+Train 		: Eg - Loss 0.002	MAE 0.034	RMSE 0.046	
+Validation 	: Eg - Loss 0.044	MAE 0.103	RMSE 0.219	
+Epoch: [146/300]
+Train 		: Eg - Loss 0.005	MAE 0.051	RMSE 0.071	
+Validation 	: Eg - Loss 0.047	MAE 0.109	RMSE 0.227	
+Epoch: [147/300]
+Train 		: Eg - Loss 0.005	MAE 0.048	RMSE 0.068	
+Validation 	: Eg - Loss 0.049	MAE 0.108	RMSE 0.230	
+Epoch: [148/300]
+Train 		: Eg - Loss 0.005	MAE 0.052	RMSE 0.074	
+Validation 	: Eg - Loss 0.051	MAE 0.117	RMSE 0.237	
+Epoch: [149/300]
+Train 		: Eg - Loss 0.005	MAE 0.049	RMSE 0.071	
+Validation 	: Eg - Loss 0.048	MAE 0.116	RMSE 0.230	
+Epoch: [150/300]
+Train 		: Eg - Loss 0.004	MAE 0.042	RMSE 0.060	
+Validation 	: Eg - Loss 0.051	MAE 0.111	RMSE 0.236	
+Epoch: [151/300]
+Train 		: Eg - Loss 0.002	MAE 0.036	RMSE 0.050	
+Validation 	: Eg - Loss 0.050	MAE 0.111	RMSE 0.234	
+Epoch: [152/300]
+Train 		: Eg - Loss 0.006	MAE 0.052	RMSE 0.074	
+Validation 	: Eg - Loss 0.043	MAE 0.106	RMSE 0.215	
+Epoch: [153/300]
+Train 		: Eg - Loss 0.003	MAE 0.039	RMSE 0.055	
+Validation 	: Eg - Loss 0.044	MAE 0.103	RMSE 0.220	
+Epoch: [154/300]
+Train 		: Eg - Loss 0.002	MAE 0.035	RMSE 0.048	
+Validation 	: Eg - Loss 0.044	MAE 0.103	RMSE 0.221	
+Epoch: [155/300]
+Train 		: Eg - Loss 0.001	MAE 0.030	RMSE 0.040	
+Validation 	: Eg - Loss 0.049	MAE 0.105	RMSE 0.231	
+Epoch: [156/300]
+Train 		: Eg - Loss 0.002	MAE 0.030	RMSE 0.041	
+Validation 	: Eg - Loss 0.044	MAE 0.102	RMSE 0.219	
+Epoch: [157/300]
+Train 		: Eg - Loss 0.002	MAE 0.033	RMSE 0.046	
+Validation 	: Eg - Loss 0.051	MAE 0.113	RMSE 0.236	
+Epoch: [158/300]
+Train 		: Eg - Loss 0.002	MAE 0.035	RMSE 0.049	
+Validation 	: Eg - Loss 0.046	MAE 0.105	RMSE 0.226	
+Epoch: [159/300]
+Train 		: Eg - Loss 0.002	MAE 0.033	RMSE 0.045	
+Validation 	: Eg - Loss 0.043	MAE 0.102	RMSE 0.215	
+Epoch: [160/300]
+Train 		: Eg - Loss 0.002	MAE 0.034	RMSE 0.046	
+Validation 	: Eg - Loss 0.046	MAE 0.106	RMSE 0.225	
+Epoch: [161/300]
+Train 		: Eg - Loss 0.003	MAE 0.038	RMSE 0.052	
+Validation 	: Eg - Loss 0.046	MAE 0.108	RMSE 0.225	
+Epoch: [162/300]
+Train 		: Eg - Loss 0.002	MAE 0.037	RMSE 0.051	
+Validation 	: Eg - Loss 0.048	MAE 0.110	RMSE 0.229	
+Epoch: [163/300]
+Train 		: Eg - Loss 0.003	MAE 0.041	RMSE 0.057	
+Validation 	: Eg - Loss 0.047	MAE 0.104	RMSE 0.225	
+Epoch: [164/300]
+Train 		: Eg - Loss 0.002	MAE 0.037	RMSE 0.051	
+Validation 	: Eg - Loss 0.047	MAE 0.106	RMSE 0.227	
+Epoch: [165/300]
+Train 		: Eg - Loss 0.002	MAE 0.035	RMSE 0.048	
+Validation 	: Eg - Loss 0.044	MAE 0.103	RMSE 0.221	
+Epoch: [166/300]
+Train 		: Eg - Loss 0.002	MAE 0.032	RMSE 0.045	
+Validation 	: Eg - Loss 0.046	MAE 0.103	RMSE 0.225	
+Epoch: [167/300]
+Train 		: Eg - Loss 0.002	MAE 0.030	RMSE 0.042	
+Validation 	: Eg - Loss 0.050	MAE 0.109	RMSE 0.233	
+Epoch: [168/300]
+Train 		: Eg - Loss 0.002	MAE 0.031	RMSE 0.043	
+Validation 	: Eg - Loss 0.047	MAE 0.106	RMSE 0.227	
+Epoch: [169/300]
+Train 		: Eg - Loss 0.002	MAE 0.035	RMSE 0.049	
+Validation 	: Eg - Loss 0.047	MAE 0.107	RMSE 0.228	
+Epoch: [170/300]
+Train 		: Eg - Loss 0.003	MAE 0.038	RMSE 0.052	
+Validation 	: Eg - Loss 0.049	MAE 0.111	RMSE 0.231	
+Epoch: [171/300]
+Train 		: Eg - Loss 0.003	MAE 0.039	RMSE 0.054	
+Validation 	: Eg - Loss 0.045	MAE 0.108	RMSE 0.220	
+Epoch: [172/300]
+Train 		: Eg - Loss 0.006	MAE 0.050	RMSE 0.074	
+Validation 	: Eg - Loss 0.048	MAE 0.119	RMSE 0.229	
+Epoch: [173/300]
+Train 		: Eg - Loss 0.006	MAE 0.052	RMSE 0.075	
+Validation 	: Eg - Loss 0.046	MAE 0.105	RMSE 0.225	
+Epoch: [174/300]
+Train 		: Eg - Loss 0.004	MAE 0.042	RMSE 0.061	
+Validation 	: Eg - Loss 0.048	MAE 0.112	RMSE 0.231	
+Epoch: [175/300]
+Train 		: Eg - Loss 0.007	MAE 0.053	RMSE 0.079	
+Validation 	: Eg - Loss 0.047	MAE 0.114	RMSE 0.228	
+Epoch: [176/300]
+Train 		: Eg - Loss 0.006	MAE 0.050	RMSE 0.073	
+Validation 	: Eg - Loss 0.047	MAE 0.112	RMSE 0.226	
+Epoch: [177/300]
+Train 		: Eg - Loss 0.003	MAE 0.036	RMSE 0.051	
+Validation 	: Eg - Loss 0.054	MAE 0.138	RMSE 0.243	
+Epoch: [178/300]
+Train 		: Eg - Loss 0.003	MAE 0.040	RMSE 0.057	
+Validation 	: Eg - Loss 0.046	MAE 0.104	RMSE 0.226	
+Epoch: [179/300]
+Train 		: Eg - Loss 0.002	MAE 0.029	RMSE 0.041	
+Validation 	: Eg - Loss 0.042	MAE 0.099	RMSE 0.215	
+Epoch: [180/300]
+Train 		: Eg - Loss 0.002	MAE 0.030	RMSE 0.042	
+Validation 	: Eg - Loss 0.046	MAE 0.102	RMSE 0.224	
+Epoch: [181/300]
+Train 		: Eg - Loss 0.001	MAE 0.026	RMSE 0.036	
+Validation 	: Eg - Loss 0.043	MAE 0.101	RMSE 0.218	
+Epoch: [182/300]
+Train 		: Eg - Loss 0.001	MAE 0.026	RMSE 0.035	
+Validation 	: Eg - Loss 0.045	MAE 0.102	RMSE 0.221	
+Epoch: [183/300]
+Train 		: Eg - Loss 0.001	MAE 0.024	RMSE 0.033	
+Validation 	: Eg - Loss 0.042	MAE 0.101	RMSE 0.214	
+Epoch: [184/300]
+Train 		: Eg - Loss 0.001	MAE 0.025	RMSE 0.034	
+Validation 	: Eg - Loss 0.044	MAE 0.101	RMSE 0.220	
+Epoch: [185/300]
+Train 		: Eg - Loss 0.001	MAE 0.026	RMSE 0.035	
+Validation 	: Eg - Loss 0.045	MAE 0.103	RMSE 0.224	
+Epoch: [186/300]
+Train 		: Eg - Loss 0.001	MAE 0.028	RMSE 0.039	
+Validation 	: Eg - Loss 0.045	MAE 0.101	RMSE 0.223	
+Epoch: [187/300]
+Train 		: Eg - Loss 0.001	MAE 0.029	RMSE 0.039	
+Validation 	: Eg - Loss 0.046	MAE 0.103	RMSE 0.224	
+Epoch: [188/300]
+Train 		: Eg - Loss 0.002	MAE 0.032	RMSE 0.045	
+Validation 	: Eg - Loss 0.044	MAE 0.105	RMSE 0.220	
+Epoch: [189/300]
+Train 		: Eg - Loss 0.002	MAE 0.036	RMSE 0.049	
+Validation 	: Eg - Loss 0.047	MAE 0.110	RMSE 0.228	
+Epoch: [190/300]
+Train 		: Eg - Loss 0.002	MAE 0.032	RMSE 0.044	
+Validation 	: Eg - Loss 0.043	MAE 0.102	RMSE 0.216	
+Epoch: [191/300]
+Train 		: Eg - Loss 0.002	MAE 0.033	RMSE 0.045	
+Validation 	: Eg - Loss 0.045	MAE 0.102	RMSE 0.223	
+Epoch: [192/300]
+Train 		: Eg - Loss 0.002	MAE 0.031	RMSE 0.043	
+Validation 	: Eg - Loss 0.045	MAE 0.104	RMSE 0.223	
+Epoch: [193/300]
+Train 		: Eg - Loss 0.001	MAE 0.029	RMSE 0.040	
+Validation 	: Eg - Loss 0.045	MAE 0.105	RMSE 0.224	
+Epoch: [194/300]
+Train 		: Eg - Loss 0.003	MAE 0.042	RMSE 0.059	
+Validation 	: Eg - Loss 0.046	MAE 0.105	RMSE 0.225	
+Epoch: [195/300]
+Train 		: Eg - Loss 0.010	MAE 0.065	RMSE 0.095	
+Validation 	: Eg - Loss 0.054	MAE 0.117	RMSE 0.242	
+Epoch: [196/300]
+Train 		: Eg - Loss 0.011	MAE 0.068	RMSE 0.104	
+Validation 	: Eg - Loss 0.053	MAE 0.115	RMSE 0.242	
+Epoch: [197/300]
+Train 		: Eg - Loss 0.007	MAE 0.058	RMSE 0.086	
+Validation 	: Eg - Loss 0.047	MAE 0.112	RMSE 0.227	
+Epoch: [198/300]
+Train 		: Eg - Loss 0.004	MAE 0.042	RMSE 0.061	
+Validation 	: Eg - Loss 0.046	MAE 0.109	RMSE 0.224	
+Epoch: [199/300]
+Train 		: Eg - Loss 0.002	MAE 0.032	RMSE 0.045	
+Validation 	: Eg - Loss 0.047	MAE 0.105	RMSE 0.227	
+Epoch: [200/300]
+Train 		: Eg - Loss 0.001	MAE 0.027	RMSE 0.036	
+Validation 	: Eg - Loss 0.043	MAE 0.099	RMSE 0.216	
+Epoch: [201/300]
+Train 		: Eg - Loss 0.001	MAE 0.024	RMSE 0.032	
+Validation 	: Eg - Loss 0.043	MAE 0.100	RMSE 0.217	
+Epoch: [202/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.029	
+Validation 	: Eg - Loss 0.045	MAE 0.100	RMSE 0.222	
+Epoch: [203/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.028	
+Validation 	: Eg - Loss 0.044	MAE 0.102	RMSE 0.220	
+Epoch: [204/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.028	
+Validation 	: Eg - Loss 0.044	MAE 0.100	RMSE 0.219	
+Epoch: [205/300]
+Train 		: Eg - Loss 0.001	MAE 0.020	RMSE 0.027	
+Validation 	: Eg - Loss 0.044	MAE 0.101	RMSE 0.221	
+Epoch: [206/300]
+Train 		: Eg - Loss 0.001	MAE 0.020	RMSE 0.027	
+Validation 	: Eg - Loss 0.047	MAE 0.104	RMSE 0.226	
+Epoch: [207/300]
+Train 		: Eg - Loss 0.001	MAE 0.023	RMSE 0.031	
+Validation 	: Eg - Loss 0.047	MAE 0.102	RMSE 0.227	
+Epoch: [208/300]
+Train 		: Eg - Loss 0.002	MAE 0.030	RMSE 0.041	
+Validation 	: Eg - Loss 0.044	MAE 0.102	RMSE 0.220	
+Epoch: [209/300]
+Train 		: Eg - Loss 0.002	MAE 0.032	RMSE 0.045	
+Validation 	: Eg - Loss 0.043	MAE 0.102	RMSE 0.217	
+Epoch: [210/300]
+Train 		: Eg - Loss 0.005	MAE 0.045	RMSE 0.065	
+Validation 	: Eg - Loss 0.047	MAE 0.112	RMSE 0.226	
+Epoch: [211/300]
+Train 		: Eg - Loss 0.005	MAE 0.048	RMSE 0.070	
+Validation 	: Eg - Loss 0.048	MAE 0.111	RMSE 0.230	
+Epoch: [212/300]
+Train 		: Eg - Loss 0.004	MAE 0.042	RMSE 0.061	
+Validation 	: Eg - Loss 0.042	MAE 0.108	RMSE 0.215	
+Epoch: [213/300]
+Train 		: Eg - Loss 0.002	MAE 0.035	RMSE 0.050	
+Validation 	: Eg - Loss 0.045	MAE 0.101	RMSE 0.223	
+Epoch: [214/300]
+Train 		: Eg - Loss 0.001	MAE 0.026	RMSE 0.035	
+Validation 	: Eg - Loss 0.044	MAE 0.099	RMSE 0.220	
+Epoch: [215/300]
+Train 		: Eg - Loss 0.001	MAE 0.024	RMSE 0.034	
+Validation 	: Eg - Loss 0.042	MAE 0.099	RMSE 0.213	
+Epoch: [216/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.029	
+Validation 	: Eg - Loss 0.045	MAE 0.101	RMSE 0.222	
+Epoch: [217/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.028	
+Validation 	: Eg - Loss 0.043	MAE 0.102	RMSE 0.218	
+Epoch: [218/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.029	
+Validation 	: Eg - Loss 0.046	MAE 0.101	RMSE 0.225	
+Epoch: [219/300]
+Train 		: Eg - Loss 0.001	MAE 0.023	RMSE 0.032	
+Validation 	: Eg - Loss 0.042	MAE 0.102	RMSE 0.213	
+Epoch: [220/300]
+Train 		: Eg - Loss 0.001	MAE 0.027	RMSE 0.037	
+Validation 	: Eg - Loss 0.046	MAE 0.105	RMSE 0.225	
+Epoch: [221/300]
+Train 		: Eg - Loss 0.002	MAE 0.032	RMSE 0.044	
+Validation 	: Eg - Loss 0.044	MAE 0.103	RMSE 0.218	
+Epoch: [222/300]
+Train 		: Eg - Loss 0.002	MAE 0.030	RMSE 0.041	
+Validation 	: Eg - Loss 0.047	MAE 0.104	RMSE 0.227	
+Epoch: [223/300]
+Train 		: Eg - Loss 0.002	MAE 0.030	RMSE 0.041	
+Validation 	: Eg - Loss 0.046	MAE 0.101	RMSE 0.224	
+Epoch: [224/300]
+Train 		: Eg - Loss 0.001	MAE 0.027	RMSE 0.037	
+Validation 	: Eg - Loss 0.044	MAE 0.106	RMSE 0.221	
+Epoch: [225/300]
+Train 		: Eg - Loss 0.001	MAE 0.029	RMSE 0.040	
+Validation 	: Eg - Loss 0.046	MAE 0.103	RMSE 0.224	
+Epoch: [226/300]
+Train 		: Eg - Loss 0.002	MAE 0.031	RMSE 0.044	
+Validation 	: Eg - Loss 0.048	MAE 0.106	RMSE 0.229	
+Epoch: [227/300]
+Train 		: Eg - Loss 0.004	MAE 0.047	RMSE 0.067	
+Validation 	: Eg - Loss 0.049	MAE 0.109	RMSE 0.232	
+Epoch: [228/300]
+Train 		: Eg - Loss 0.005	MAE 0.048	RMSE 0.072	
+Validation 	: Eg - Loss 0.045	MAE 0.110	RMSE 0.222	
+Epoch: [229/300]
+Train 		: Eg - Loss 0.003	MAE 0.036	RMSE 0.052	
+Validation 	: Eg - Loss 0.047	MAE 0.104	RMSE 0.227	
+Epoch: [230/300]
+Train 		: Eg - Loss 0.001	MAE 0.026	RMSE 0.036	
+Validation 	: Eg - Loss 0.045	MAE 0.100	RMSE 0.222	
+Epoch: [231/300]
+Train 		: Eg - Loss 0.001	MAE 0.022	RMSE 0.030	
+Validation 	: Eg - Loss 0.045	MAE 0.101	RMSE 0.222	
+Epoch: [232/300]
+Train 		: Eg - Loss 0.001	MAE 0.022	RMSE 0.030	
+Validation 	: Eg - Loss 0.046	MAE 0.103	RMSE 0.226	
+Epoch: [233/300]
+Train 		: Eg - Loss 0.001	MAE 0.020	RMSE 0.028	
+Validation 	: Eg - Loss 0.047	MAE 0.101	RMSE 0.227	
+Epoch: [234/300]
+Train 		: Eg - Loss 0.001	MAE 0.020	RMSE 0.027	
+Validation 	: Eg - Loss 0.045	MAE 0.099	RMSE 0.222	
+Epoch: [235/300]
+Train 		: Eg - Loss 0.001	MAE 0.024	RMSE 0.033	
+Validation 	: Eg - Loss 0.047	MAE 0.102	RMSE 0.227	
+Epoch: [236/300]
+Train 		: Eg - Loss 0.001	MAE 0.024	RMSE 0.034	
+Validation 	: Eg - Loss 0.047	MAE 0.101	RMSE 0.226	
+Epoch: [237/300]
+Train 		: Eg - Loss 0.001	MAE 0.027	RMSE 0.038	
+Validation 	: Eg - Loss 0.044	MAE 0.101	RMSE 0.220	
+Epoch: [238/300]
+Train 		: Eg - Loss 0.001	MAE 0.027	RMSE 0.037	
+Validation 	: Eg - Loss 0.047	MAE 0.101	RMSE 0.227	
+Epoch: [239/300]
+Train 		: Eg - Loss 0.001	MAE 0.028	RMSE 0.039	
+Validation 	: Eg - Loss 0.044	MAE 0.100	RMSE 0.219	
+Epoch: [240/300]
+Train 		: Eg - Loss 0.002	MAE 0.030	RMSE 0.043	
+Validation 	: Eg - Loss 0.044	MAE 0.103	RMSE 0.220	
+Epoch: [241/300]
+Train 		: Eg - Loss 0.002	MAE 0.030	RMSE 0.043	
+Validation 	: Eg - Loss 0.049	MAE 0.106	RMSE 0.232	
+Epoch: [242/300]
+Train 		: Eg - Loss 0.002	MAE 0.033	RMSE 0.046	
+Validation 	: Eg - Loss 0.043	MAE 0.106	RMSE 0.218	
+Epoch: [243/300]
+Train 		: Eg - Loss 0.003	MAE 0.036	RMSE 0.052	
+Validation 	: Eg - Loss 0.049	MAE 0.107	RMSE 0.229	
+Epoch: [244/300]
+Train 		: Eg - Loss 0.002	MAE 0.035	RMSE 0.049	
+Validation 	: Eg - Loss 0.043	MAE 0.100	RMSE 0.216	
+Epoch: [245/300]
+Train 		: Eg - Loss 0.002	MAE 0.029	RMSE 0.041	
+Validation 	: Eg - Loss 0.045	MAE 0.102	RMSE 0.223	
+Epoch: [246/300]
+Train 		: Eg - Loss 0.001	MAE 0.024	RMSE 0.034	
+Validation 	: Eg - Loss 0.045	MAE 0.100	RMSE 0.223	
+Epoch: [247/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.029	
+Validation 	: Eg - Loss 0.041	MAE 0.097	RMSE 0.209	
+Epoch: [248/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.029	
+Validation 	: Eg - Loss 0.045	MAE 0.099	RMSE 0.222	
+Epoch: [249/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.028	
+Validation 	: Eg - Loss 0.046	MAE 0.100	RMSE 0.224	
+Epoch: [250/300]
+Train 		: Eg - Loss 0.001	MAE 0.022	RMSE 0.031	
+Validation 	: Eg - Loss 0.045	MAE 0.099	RMSE 0.223	
+Epoch: [251/300]
+Train 		: Eg - Loss 0.001	MAE 0.024	RMSE 0.033	
+Validation 	: Eg - Loss 0.043	MAE 0.100	RMSE 0.218	
+Epoch: [252/300]
+Train 		: Eg - Loss 0.002	MAE 0.032	RMSE 0.045	
+Validation 	: Eg - Loss 0.042	MAE 0.101	RMSE 0.214	
+Epoch: [253/300]
+Train 		: Eg - Loss 0.002	MAE 0.029	RMSE 0.041	
+Validation 	: Eg - Loss 0.042	MAE 0.100	RMSE 0.215	
+Epoch: [254/300]
+Train 		: Eg - Loss 0.002	MAE 0.033	RMSE 0.045	
+Validation 	: Eg - Loss 0.045	MAE 0.101	RMSE 0.223	
+Epoch: [255/300]
+Train 		: Eg - Loss 0.001	MAE 0.028	RMSE 0.039	
+Validation 	: Eg - Loss 0.041	MAE 0.097	RMSE 0.211	
+Epoch: [256/300]
+Train 		: Eg - Loss 0.001	MAE 0.024	RMSE 0.034	
+Validation 	: Eg - Loss 0.044	MAE 0.100	RMSE 0.221	
+Epoch: [257/300]
+Train 		: Eg - Loss 0.005	MAE 0.044	RMSE 0.065	
+Validation 	: Eg - Loss 0.046	MAE 0.110	RMSE 0.223	
+Epoch: [258/300]
+Train 		: Eg - Loss 0.008	MAE 0.061	RMSE 0.090	
+Validation 	: Eg - Loss 0.050	MAE 0.122	RMSE 0.234	
+Epoch: [259/300]
+Train 		: Eg - Loss 0.004	MAE 0.042	RMSE 0.061	
+Validation 	: Eg - Loss 0.048	MAE 0.104	RMSE 0.229	
+Epoch: [260/300]
+Train 		: Eg - Loss 0.001	MAE 0.026	RMSE 0.037	
+Validation 	: Eg - Loss 0.043	MAE 0.100	RMSE 0.216	
+Epoch: [261/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.029	
+Validation 	: Eg - Loss 0.043	MAE 0.099	RMSE 0.218	
+Epoch: [262/300]
+Train 		: Eg - Loss 0.001	MAE 0.018	RMSE 0.024	
+Validation 	: Eg - Loss 0.044	MAE 0.099	RMSE 0.221	
+Epoch: [263/300]
+Train 		: Eg - Loss 0.000	MAE 0.016	RMSE 0.022	
+Validation 	: Eg - Loss 0.045	MAE 0.101	RMSE 0.222	
+Epoch: [264/300]
+Train 		: Eg - Loss 0.000	MAE 0.016	RMSE 0.023	
+Validation 	: Eg - Loss 0.043	MAE 0.099	RMSE 0.218	
+Epoch: [265/300]
+Train 		: Eg - Loss 0.000	MAE 0.016	RMSE 0.022	
+Validation 	: Eg - Loss 0.045	MAE 0.099	RMSE 0.222	
+Epoch: [266/300]
+Train 		: Eg - Loss 0.001	MAE 0.019	RMSE 0.026	
+Validation 	: Eg - Loss 0.045	MAE 0.099	RMSE 0.221	
+Epoch: [267/300]
+Train 		: Eg - Loss 0.001	MAE 0.018	RMSE 0.025	
+Validation 	: Eg - Loss 0.041	MAE 0.099	RMSE 0.212	
+Epoch: [268/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.030	
+Validation 	: Eg - Loss 0.044	MAE 0.100	RMSE 0.219	
+Epoch: [269/300]
+Train 		: Eg - Loss 0.001	MAE 0.020	RMSE 0.028	
+Validation 	: Eg - Loss 0.050	MAE 0.103	RMSE 0.231	
+Epoch: [270/300]
+Train 		: Eg - Loss 0.001	MAE 0.023	RMSE 0.032	
+Validation 	: Eg - Loss 0.042	MAE 0.098	RMSE 0.216	
+Epoch: [271/300]
+Train 		: Eg - Loss 0.001	MAE 0.025	RMSE 0.035	
+Validation 	: Eg - Loss 0.046	MAE 0.102	RMSE 0.224	
+Epoch: [272/300]
+Train 		: Eg - Loss 0.001	MAE 0.025	RMSE 0.035	
+Validation 	: Eg - Loss 0.047	MAE 0.103	RMSE 0.227	
+Epoch: [273/300]
+Train 		: Eg - Loss 0.002	MAE 0.030	RMSE 0.042	
+Validation 	: Eg - Loss 0.044	MAE 0.102	RMSE 0.219	
+Epoch: [274/300]
+Train 		: Eg - Loss 0.002	MAE 0.030	RMSE 0.042	
+Validation 	: Eg - Loss 0.046	MAE 0.103	RMSE 0.226	
+Epoch: [275/300]
+Train 		: Eg - Loss 0.001	MAE 0.026	RMSE 0.037	
+Validation 	: Eg - Loss 0.047	MAE 0.104	RMSE 0.227	
+Epoch: [276/300]
+Train 		: Eg - Loss 0.001	MAE 0.025	RMSE 0.034	
+Validation 	: Eg - Loss 0.045	MAE 0.100	RMSE 0.222	
+Epoch: [277/300]
+Train 		: Eg - Loss 0.001	MAE 0.023	RMSE 0.032	
+Validation 	: Eg - Loss 0.043	MAE 0.101	RMSE 0.218	
+Epoch: [278/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.030	
+Validation 	: Eg - Loss 0.043	MAE 0.101	RMSE 0.215	
+Epoch: [279/300]
+Train 		: Eg - Loss 0.001	MAE 0.021	RMSE 0.030	
+Validation 	: Eg - Loss 0.046	MAE 0.101	RMSE 0.224	
+Epoch: [280/300]
+Train 		: Eg - Loss 0.001	MAE 0.023	RMSE 0.032	
+Validation 	: Eg - Loss 0.043	MAE 0.099	RMSE 0.217	
+Epoch: [281/300]
+Train 		: Eg - Loss 0.001	MAE 0.024	RMSE 0.033	
+Validation 	: Eg - Loss 0.046	MAE 0.101	RMSE 0.226	
+Epoch: [282/300]
+Train 		: Eg - Loss 0.001	MAE 0.026	RMSE 0.036	
+Validation 	: Eg - Loss 0.046	MAE 0.102	RMSE 0.225	
+Epoch: [283/300]
+Train 		: Eg - Loss 0.001	MAE 0.027	RMSE 0.037	
+Validation 	: Eg - Loss 0.040	MAE 0.097	RMSE 0.209	
+Epoch: [284/300]
+Train 		: Eg - Loss 0.001	MAE 0.024	RMSE 0.034	
+Validation 	: Eg - Loss 0.049	MAE 0.106	RMSE 0.233	
+Epoch: [285/300]
+Train 		: Eg - Loss 0.001	MAE 0.025	RMSE 0.035	
+Validation 	: Eg - Loss 0.044	MAE 0.101	RMSE 0.221	
+Epoch: [286/300]
+Train 		: Eg - Loss 0.002	MAE 0.034	RMSE 0.048	
+Validation 	: Eg - Loss 0.045	MAE 0.104	RMSE 0.223	
+Epoch: [287/300]
+Train 		: Eg - Loss 0.006	MAE 0.055	RMSE 0.080	
+Validation 	: Eg - Loss 0.046	MAE 0.107	RMSE 0.226	
+Epoch: [288/300]
+Train 		: Eg - Loss 0.003	MAE 0.039	RMSE 0.058	
+Validation 	: Eg - Loss 0.045	MAE 0.108	RMSE 0.222	
+Epoch: [289/300]
+Train 		: Eg - Loss 0.003	MAE 0.034	RMSE 0.049	
+Validation 	: Eg - Loss 0.047	MAE 0.104	RMSE 0.226	
+Epoch: [290/300]
+Train 		: Eg - Loss 0.001	MAE 0.025	RMSE 0.036	
+Validation 	: Eg - Loss 0.045	MAE 0.101	RMSE 0.221	
+Epoch: [291/300]
+Train 		: Eg - Loss 0.001	MAE 0.019	RMSE 0.028	
+Validation 	: Eg - Loss 0.045	MAE 0.100	RMSE 0.224	
+Epoch: [292/300]
+Train 		: Eg - Loss 0.000	MAE 0.016	RMSE 0.023	
+Validation 	: Eg - Loss 0.045	MAE 0.099	RMSE 0.223	
+Epoch: [293/300]
+Train 		: Eg - Loss 0.000	MAE 0.015	RMSE 0.021	
+Validation 	: Eg - Loss 0.048	MAE 0.100	RMSE 0.228	
+Epoch: [294/300]
+Train 		: Eg - Loss 0.000	MAE 0.015	RMSE 0.021	
+Validation 	: Eg - Loss 0.045	MAE 0.098	RMSE 0.223	
+Epoch: [295/300]
+Train 		: Eg - Loss 0.000	MAE 0.015	RMSE 0.021	
+Validation 	: Eg - Loss 0.048	MAE 0.101	RMSE 0.230	
+Epoch: [296/300]
+Train 		: Eg - Loss 0.000	MAE 0.016	RMSE 0.022	
+Validation 	: Eg - Loss 0.045	MAE 0.100	RMSE 0.223	
+Epoch: [297/300]
+Train 		: Eg - Loss 0.001	MAE 0.018	RMSE 0.024	
+Validation 	: Eg - Loss 0.047	MAE 0.101	RMSE 0.227	
+Epoch: [298/300]
+Train 		: Eg - Loss 0.001	MAE 0.023	RMSE 0.032	
+Validation 	: Eg - Loss 0.046	MAE 0.103	RMSE 0.224	
+Epoch: [299/300]
+Train 		: Eg - Loss 0.001	MAE 0.026	RMSE 0.036	
+Validation 	: Eg - Loss 0.048	MAE 0.104	RMSE 0.231	
+Epoch: [300/300]
+Train 		: Eg - Loss 0.002	MAE 0.029	RMSE 0.041	
+Validation 	: Eg - Loss 0.049	MAE 0.105	RMSE 0.232	
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------Evaluate model on Test Set------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Evaluating Model
+out_hidden [256, 128, 64]
+
+Saved model predictions to 'results/jarvis_e_form.csv'
+
+Task: 'Eg' on Test Set
+Model Performance Metrics:
+R2 Score: 0.9493 
+MAE: 0.1027
+RMSE: 0.2387

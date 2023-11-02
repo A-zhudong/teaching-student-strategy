@@ -1,0 +1,1669 @@
+nohup: ignoring input
+Property "mp_e_form" selected for training
+model_name:  mp_e_form_MPdata_JVpretrain_MPfinetune_ratio0.05
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Generating EDM:   0%|          | 0/1766 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 1766/1766 [00:00<00:00, 53775.47formulae/s]
+loading data with up to 7 elements in the formula
+training with batchsize 512 (2**9.000)
+Generating EDM:   0%|          | 0/197 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 197/197 [00:00<00:00, 134354.13formulae/s]
+loading data with up to 7 elements in the formula
+stepping every 4 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+tensor(0.8350, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0099, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.8240, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.7531, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0098, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.6095, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0119, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch: 0/300 --- train mae: 0.493 val mae: 0.55
+tensor(0.4776, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0156, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.3241, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0230, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.2210, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0303, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.2294, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0333, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch: 1/300 --- train mae: 0.209 val mae: 0.214
+tensor(0.1936, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0309, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1860, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0304, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1665, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0270, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1798, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0250, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1765, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0224, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.2499, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0192, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.2445, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0207, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.2043, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0223, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch: 3/300 --- train mae: 0.171 val mae: 0.164
+tensor(0.1596, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0250, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1657, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0247, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1384, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0200, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1204, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0225, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1594, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0231, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1765, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0228, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1734, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0214, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1756, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0200, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch: 5/300 --- train mae: 0.125 val mae: 0.146
+tensor(0.1167, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0188, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1286, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0183, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1122, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0193, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1074, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0215, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1669, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0237, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1634, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0186, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1318, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0170, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0994, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0186, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch: 7/300 --- train mae: 0.0902 val mae: 0.118
+tensor(0.0935, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0187, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0848, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0183, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0882, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0191, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1109, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0193, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1044, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0177, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1049, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0188, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1709, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0176, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1166, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0165, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch: 9/300 --- train mae: 0.0961 val mae: 0.123
+tensor(0.0942, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0172, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0987, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0170, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0820, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0176, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0769, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0184, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1221, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0182, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1759, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0185, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1456, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0160, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1474, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0163, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch: 11/300 --- train mae: 0.0715 val mae: 0.1
+tensor(0.0818, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0163, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0756, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0161, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0663, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0173, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0931, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0191, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1421, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0164, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1202, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0163, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0722, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0167, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0851, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0161, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch: 13/300 --- train mae: 0.0827 val mae: 0.104
+tensor(0.0731, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0171, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0820, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0173, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0584, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0158, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1210, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0156, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1109, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0151, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1487, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0157, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1074, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0177, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0794, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0163, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 15 failed to improve.
+Discarded: 1/150 weight updates ♻🗑️
+Epoch: 15/300 --- train mae: 0.083 val mae: 0.102
+tensor(0.0848, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0155, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0831, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0160, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0864, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0147, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0655, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0154, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1348, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0169, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1339, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0173, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1337, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0146, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1298, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0146, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 17 failed to improve.
+Discarded: 2/150 weight updates ♻🗑️
+Epoch: 17/300 --- train mae: 0.0661 val mae: 0.104
+tensor(0.0720, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0147, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0721, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0148, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0600, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0161, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1075, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0168, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0882, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0160, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1570, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0141, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1020, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0136, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0733, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0147, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 19 failed to improve.
+Discarded: 3/150 weight updates ♻🗑️
+Epoch: 19/300 --- train mae: 0.0759 val mae: 0.106
+tensor(0.0696, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0154, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0746, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0151, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0644, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0152, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0855, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0155, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0954, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0137, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1068, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0167, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1149, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0156, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0908, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0151, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 21 failed to improve.
+Discarded: 4/150 weight updates ♻🗑️
+Epoch: 21/300 --- train mae: 0.0973 val mae: 0.144
+tensor(0.1028, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0137, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0982, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0138, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0651, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0143, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1129, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0164, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1068, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0163, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1283, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0137, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1436, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0137, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1296, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0144, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 23 failed to improve.
+Discarded: 5/150 weight updates ♻🗑️
+Epoch: 23/300 --- train mae: 0.066 val mae: 0.108
+tensor(0.0656, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0134, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0735, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0137, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0570, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0143, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1087, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0166, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0888, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0149, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1358, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0149, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0913, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0126, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0692, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0134, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 25 failed to improve.
+Discarded: 6/150 weight updates ♻🗑️
+Epoch: 25/300 --- train mae: 0.0732 val mae: 0.107
+tensor(0.0711, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0142, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0640, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0146, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0545, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0146, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0716, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0133, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0858, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0134, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1004, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0152, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0848, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0146, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1029, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0139, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 27 failed to improve.
+Discarded: 7/150 weight updates ♻🗑️
+Epoch: 27/300 --- train mae: 0.0905 val mae: 0.124
+tensor(0.0963, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0128, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0918, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0131, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0684, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0132, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0755, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0148, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1306, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0140, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0985, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0142, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1160, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0133, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0956, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0134, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch: 29/300 --- train mae: 0.054 val mae: 0.088
+tensor(0.0554, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0135, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0561, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0138, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0531, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0128, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0758, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0136, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0616, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0129, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1345, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0124, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0582, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0129, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0740, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0149, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 31 failed to improve.
+Discarded: 8/150 weight updates ♻🗑️
+Epoch: 31/300 --- train mae: 0.067 val mae: 0.0954
+tensor(0.0642, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0135, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0593, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0134, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0549, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0129, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1151, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0121, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0917, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0114, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1080, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0132, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1654, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0160, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0819, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0138, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 33 failed to improve.
+Discarded: 9/150 weight updates ♻🗑️
+Epoch: 33/300 --- train mae: 0.0737 val mae: 0.0986
+tensor(0.0725, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0134, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0711, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0127, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0774, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0119, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0697, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0938, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0136, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0998, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0141, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1149, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0137, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1001, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0122, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 35 failed to improve.
+Discarded: 10/150 weight updates ♻🗑️
+Epoch: 35/300 --- train mae: 0.0655 val mae: 0.119
+tensor(0.0792, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0119, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0681, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0119, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0514, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0123, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1154, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0139, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1339, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0137, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0980, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0127, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0894, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0119, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0958, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 37 failed to improve.
+Discarded: 11/150 weight updates ♻🗑️
+Epoch: 37/300 --- train mae: 0.0674 val mae: 0.114
+tensor(0.0709, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0712, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0118, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0580, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0123, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0879, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0131, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0566, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0126, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0846, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0122, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0782, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0124, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0748, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 39 failed to improve.
+Discarded: 12/150 weight updates ♻🗑️
+Epoch: 39/300 --- train mae: 0.0684 val mae: 0.1
+tensor(0.0652, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0126, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0662, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0124, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0439, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0645, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0121, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0745, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0126, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0835, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0124, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0958, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0125, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0832, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0124, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 41 failed to improve.
+Discarded: 13/150 weight updates ♻🗑️
+Epoch: 41/300 --- train mae: 0.0422 val mae: 0.0894
+tensor(0.0405, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0118, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0424, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0115, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0513, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0118, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0525, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0122, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0748, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0111, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1311, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0131, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0541, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0120, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0746, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0114, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 43 failed to improve.
+Discarded: 14/150 weight updates ♻🗑️
+Epoch: 43/300 --- train mae: 0.0452 val mae: 0.0923
+tensor(0.0466, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0118, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0452, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0113, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0637, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0597, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0118, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0554, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0118, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1655, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0128, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0746, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0115, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1164, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0123, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 45 failed to improve.
+Discarded: 15/150 weight updates ♻🗑️
+Epoch: 45/300 --- train mae: 0.0871 val mae: 0.111
+tensor(0.0879, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0121, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0837, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0122, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0414, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0112, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1270, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0124, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1415, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0132, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1439, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0143, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1772, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0135, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1104, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0130, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 47 failed to improve.
+Discarded: 16/150 weight updates ♻🗑️
+Epoch: 47/300 --- train mae: 0.0532 val mae: 0.099
+tensor(0.0544, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0115, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0549, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0110, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0562, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0116, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0575, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0124, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0993, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0115, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0951, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0127, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0521, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0114, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0591, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0116, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch: 49/300 --- train mae: 0.0467 val mae: 0.0831
+tensor(0.0448, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0120, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0438, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0497, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0115, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0649, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0105, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0476, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0111, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0518, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0871, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0113, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0825, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0115, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 51 failed to improve.
+Discarded: 17/150 weight updates ♻🗑️
+Epoch: 51/300 --- train mae: 0.0738 val mae: 0.118
+tensor(0.0699, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0112, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0738, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0115, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0438, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0113, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0970, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0111, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0958, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0109, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1470, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0124, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0978, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0113, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1198, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 53 failed to improve.
+Discarded: 18/150 weight updates ♻🗑️
+Epoch: 53/300 --- train mae: 0.0519 val mae: 0.089
+tensor(0.0502, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0107, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0502, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0112, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0545, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0110, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1006, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0105, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0899, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0114, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1800, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0128, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0538, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0107, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0973, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 55 failed to improve.
+Discarded: 19/150 weight updates ♻🗑️
+Epoch: 55/300 --- train mae: 0.0716 val mae: 0.116
+tensor(0.0694, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0113, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0724, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0110, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0539, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0112, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1509, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0124, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0753, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0109, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1452, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0125, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1548, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0126, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1072, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 57 failed to improve.
+Discarded: 20/150 weight updates ♻🗑️
+Epoch: 57/300 --- train mae: 0.0979 val mae: 0.142
+tensor(0.1044, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0907, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0120, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0641, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0111, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0607, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0111, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0833, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1255, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0134, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1472, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0126, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0971, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0125, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 59 failed to improve.
+Discarded: 21/150 weight updates ♻🗑️
+Epoch: 59/300 --- train mae: 0.0463 val mae: 0.0943
+tensor(0.0488, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0110, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0486, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0111, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0465, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0111, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0748, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0117, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0607, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0113, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1068, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0115, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0458, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0109, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0644, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0108, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 61 failed to improve.
+Discarded: 22/150 weight updates ♻🗑️
+Epoch: 61/300 --- train mae: 0.0661 val mae: 0.101
+tensor(0.0540, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0110, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0546, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0114, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0459, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0105, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0896, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0099, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0662, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0102, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0900, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0118, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0723, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0108, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0672, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0103, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 63 failed to improve.
+Discarded: 23/150 weight updates ♻🗑️
+Epoch: 63/300 --- train mae: 0.0706 val mae: 0.116
+tensor(0.0750, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0101, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0763, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0102, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0517, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0099, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0527, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0979, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0119, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0767, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0107, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0932, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0102, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0701, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0097, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 65 failed to improve.
+Discarded: 24/150 weight updates ♻🗑️
+Epoch: 65/300 --- train mae: 0.0405 val mae: 0.0922
+tensor(0.0446, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0426, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0102, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0399, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0691, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0112, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0592, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0994, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0623, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0098, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0534, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0101, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 67 failed to improve.
+Discarded: 25/150 weight updates ♻🗑️
+Epoch: 67/300 --- train mae: 0.0573 val mae: 0.0851
+tensor(0.0506, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0107, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0470, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0101, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0417, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0098, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0759, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0600, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1274, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0104, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1078, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0110, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0813, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0104, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 69 failed to improve.
+Discarded: 26/150 weight updates ♻🗑️
+Epoch: 69/300 --- train mae: 0.0673 val mae: 0.112
+tensor(0.0659, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0094, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0735, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0097, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0487, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0519, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0105, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0756, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0108, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1158, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1052, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0099, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0783, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0103, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 71 failed to improve.
+Discarded: 27/150 weight updates ♻🗑️
+Epoch: 71/300 --- train mae: 0.0375 val mae: 0.0927
+tensor(0.0438, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0094, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0430, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0436, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0097, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0598, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0107, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0796, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1476, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0102, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0538, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0699, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0101, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 73 failed to improve.
+Discarded: 28/150 weight updates ♻🗑️
+Epoch: 73/300 --- train mae: 0.0717 val mae: 0.0923
+tensor(0.0611, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0102, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0613, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0105, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0398, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0098, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0869, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0821, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0800, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1184, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0105, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0699, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0094, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 75 failed to improve.
+Discarded: 29/150 weight updates ♻🗑️
+Epoch: 75/300 --- train mae: 0.0757 val mae: 0.116
+tensor(0.0739, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0101, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0706, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0098, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0621, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0660, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0945, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0108, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0850, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0106, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1074, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0971, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0102, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 77 failed to improve.
+Discarded: 30/150 weight updates ♻🗑️
+Epoch: 77/300 --- train mae: 0.0495 val mae: 0.111
+tensor(0.0600, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0544, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0429, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0898, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0108, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1916, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0104, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0692, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0103, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0796, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0685, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 79 failed to improve.
+Discarded: 31/150 weight updates ♻🗑️
+Epoch: 79/300 --- train mae: 0.0487 val mae: 0.0966
+tensor(0.0494, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0515, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0538, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0863, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0103, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0471, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1118, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0743, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0102, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0675, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 81 failed to improve.
+Discarded: 32/150 weight updates ♻🗑️
+Epoch: 81/300 --- train mae: 0.0624 val mae: 0.105
+tensor(0.0604, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0597, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0416, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0559, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0729, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0675, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0832, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0094, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0846, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 83 failed to improve.
+Discarded: 33/150 weight updates ♻🗑️
+Epoch: 83/300 --- train mae: 0.036 val mae: 0.0893
+tensor(0.0384, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0385, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0419, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0718, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0675, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1394, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0603, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0755, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 85 failed to improve.
+Discarded: 34/150 weight updates ♻🗑️
+Epoch: 85/300 --- train mae: 0.0649 val mae: 0.0997
+tensor(0.0572, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0581, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0098, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0538, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1029, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0717, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1390, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0103, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0875, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0101, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1215, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0106, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 87 failed to improve.
+Discarded: 35/150 weight updates ♻🗑️
+Epoch: 87/300 --- train mae: 0.0869 val mae: 0.135
+tensor(0.0827, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0099, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0902, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0500, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1378, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1646, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0114, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1060, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0112, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1334, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0115, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0826, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0097, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 89 failed to improve.
+Discarded: 36/150 weight updates ♻🗑️
+Epoch: 89/300 --- train mae: 0.0622 val mae: 0.113
+tensor(0.0654, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0603, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0429, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0750, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0984, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0107, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0901, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0101, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0571, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0603, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 91 failed to improve.
+Discarded: 37/150 weight updates ♻🗑️
+Epoch: 91/300 --- train mae: 0.0521 val mae: 0.0998
+tensor(0.0522, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0520, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0094, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0427, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0467, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0598, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0857, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0103, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0682, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0699, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 93 failed to improve.
+Discarded: 38/150 weight updates ♻🗑️
+Epoch: 93/300 --- train mae: 0.0654 val mae: 0.111
+tensor(0.0645, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0660, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0458, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0573, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1054, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1052, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1124, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0869, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0094, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 95 failed to improve.
+Discarded: 39/150 weight updates ♻🗑️
+Epoch: 95/300 --- train mae: 0.0378 val mae: 0.0886
+tensor(0.0399, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0386, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0478, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0707, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0094, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0494, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1068, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0440, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0086, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0567, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 97 failed to improve.
+Discarded: 40/150 weight updates ♻🗑️
+Epoch: 97/300 --- train mae: 0.0583 val mae: 0.0906
+tensor(0.0509, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0510, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0356, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0801, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0687, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0747, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1128, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0097, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0525, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 99 failed to improve.
+Discarded: 41/150 weight updates ♻🗑️
+Epoch: 99/300 --- train mae: 0.058 val mae: 0.11
+tensor(0.0598, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0613, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0501, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0903, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0086, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0740, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1238, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0923, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0967, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 101 failed to improve.
+Discarded: 42/150 weight updates ♻🗑️
+Epoch: 101/300 --- train mae: 0.0453 val mae: 0.0998
+tensor(0.0486, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0458, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0512, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0999, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1118, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0104, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1289, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0564, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0082, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0726, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 103 failed to improve.
+Discarded: 43/150 weight updates ♻🗑️
+Epoch: 103/300 --- train mae: 0.0488 val mae: 0.105
+tensor(0.0517, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0488, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0581, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1067, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0449, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1366, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0603, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0911, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 105 failed to improve.
+Discarded: 44/150 weight updates ♻🗑️
+Epoch: 105/300 --- train mae: 0.0652 val mae: 0.115
+tensor(0.0649, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0082, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0659, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0433, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0915, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1100, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0099, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0912, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1240, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1155, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 107 failed to improve.
+Discarded: 45/150 weight updates ♻🗑️
+Epoch: 107/300 --- train mae: 0.0482 val mae: 0.111
+tensor(0.0578, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0082, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0518, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0444, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1270, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0782, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1743, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0943, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0574, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 109 failed to improve.
+Discarded: 46/150 weight updates ♻🗑️
+Epoch: 109/300 --- train mae: 0.0739 val mae: 0.114
+tensor(0.0656, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0657, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0449, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0914, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0844, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1560, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1064, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0828, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0098, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 111 failed to improve.
+Discarded: 47/150 weight updates ♻🗑️
+Epoch: 111/300 --- train mae: 0.0826 val mae: 0.122
+tensor(0.0794, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0748, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0099, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0580, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0724, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1006, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0100, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1295, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0120, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1526, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0111, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1021, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0102, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 113 failed to improve.
+Discarded: 48/150 weight updates ♻🗑️
+Epoch: 113/300 --- train mae: 0.048 val mae: 0.108
+tensor(0.0467, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0506, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0086, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0474, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0520, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0880, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0107, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0994, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0103, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0510, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0540, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 115 failed to improve.
+Discarded: 49/150 weight updates ♻🗑️
+Epoch: 115/300 --- train mae: 0.043 val mae: 0.0953
+tensor(0.0419, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0433, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0394, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0489, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0376, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0838, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0855, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0094, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0745, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 117 failed to improve.
+Discarded: 50/150 weight updates ♻🗑️
+Epoch: 117/300 --- train mae: 0.0701 val mae: 0.129
+tensor(0.0749, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0731, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0344, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0556, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0672, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0820, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0086, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0916, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0680, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0095, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 119 failed to improve.
+Discarded: 51/150 weight updates ♻🗑️
+Epoch: 119/300 --- train mae: 0.0386 val mae: 0.0955
+tensor(0.0381, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0375, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0320, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0452, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0471, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0723, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0364, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0404, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 121 failed to improve.
+Discarded: 52/150 weight updates ♻🗑️
+Epoch: 121/300 --- train mae: 0.0374 val mae: 0.102
+tensor(0.0400, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0395, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0393, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0432, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0086, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0462, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0778, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1031, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0662, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 123 failed to improve.
+Discarded: 53/150 weight updates ♻🗑️
+Epoch: 123/300 --- train mae: 0.0696 val mae: 0.108
+tensor(0.0615, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0605, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0376, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0547, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0856, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1009, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0806, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1044, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 125 failed to improve.
+Discarded: 54/150 weight updates ♻🗑️
+Epoch: 125/300 --- train mae: 0.0392 val mae: 0.104
+tensor(0.0439, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0430, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0404, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0771, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0930, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0945, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0656, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0460, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0082, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 127 failed to improve.
+Discarded: 55/150 weight updates ♻🗑️
+Epoch: 127/300 --- train mae: 0.059 val mae: 0.0995
+tensor(0.0502, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0462, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0449, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0573, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0528, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1002, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1174, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0582, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0086, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 129 failed to improve.
+Discarded: 56/150 weight updates ♻🗑️
+Epoch: 129/300 --- train mae: 0.062 val mae: 0.113
+tensor(0.0612, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0593, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0433, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0455, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0738, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0819, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1197, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0807, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0086, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 131 failed to improve.
+Discarded: 57/150 weight updates ♻🗑️
+Epoch: 131/300 --- train mae: 0.0384 val mae: 0.102
+tensor(0.0407, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0391, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0401, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0639, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0086, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0565, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0816, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0406, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0455, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 133 failed to improve.
+Discarded: 58/150 weight updates ♻🗑️
+Epoch: 133/300 --- train mae: 0.0593 val mae: 0.0955
+tensor(0.0532, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0086, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0479, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0353, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0683, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0730, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0742, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0936, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0758, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0090, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 135 failed to improve.
+Discarded: 59/150 weight updates ♻🗑️
+Epoch: 135/300 --- train mae: 0.0587 val mae: 0.104
+tensor(0.0532, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0086, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0493, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0515, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0826, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0633, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0937, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0943, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0878, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0092, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 137 failed to improve.
+Discarded: 60/150 weight updates ♻🗑️
+Epoch: 137/300 --- train mae: 0.0447 val mae: 0.109
+tensor(0.0470, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0465, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0405, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0460, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0753, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1145, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0496, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0384, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 139 failed to improve.
+Discarded: 61/150 weight updates ♻🗑️
+Epoch: 139/300 --- train mae: 0.0452 val mae: 0.099
+tensor(0.0379, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0385, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0370, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0563, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0380, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1190, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0861, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0601, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 141 failed to improve.
+Discarded: 62/150 weight updates ♻🗑️
+Epoch: 141/300 --- train mae: 0.0737 val mae: 0.118
+tensor(0.0704, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0727, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0387, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0653, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0832, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0798, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0863, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0704, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 143 failed to improve.
+Discarded: 63/150 weight updates ♻🗑️
+Epoch: 143/300 --- train mae: 0.0366 val mae: 0.0977
+tensor(0.0363, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0337, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0322, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0391, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0638, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1084, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0464, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0448, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 145 failed to improve.
+Discarded: 64/150 weight updates ♻🗑️
+Epoch: 145/300 --- train mae: 0.0488 val mae: 0.0992
+tensor(0.0398, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0437, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0350, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0525, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0473, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0616, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0676, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0589, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 147 failed to improve.
+Discarded: 65/150 weight updates ♻🗑️
+Epoch: 147/300 --- train mae: 0.0576 val mae: 0.101
+tensor(0.0554, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0502, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0412, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0647, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0631, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0846, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1032, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0647, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0086, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 149 failed to improve.
+Discarded: 66/150 weight updates ♻🗑️
+Epoch: 149/300 --- train mae: 0.035 val mae: 0.104
+tensor(0.0383, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0379, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0435, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0446, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0446, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0838, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0587, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0599, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 151 failed to improve.
+Discarded: 67/150 weight updates ♻🗑️
+Epoch: 151/300 --- train mae: 0.0548 val mae: 0.102
+tensor(0.0486, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0457, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0394, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0617, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0521, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1545, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0088, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0765, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0082, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1106, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 153 failed to improve.
+Discarded: 68/150 weight updates ♻🗑️
+Epoch: 153/300 --- train mae: 0.0963 val mae: 0.144
+tensor(0.0984, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0963, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0082, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0475, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1251, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1900, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0093, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0810, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0091, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1392, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0104, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0807, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 155 failed to improve.
+Discarded: 69/150 weight updates ♻🗑️
+Epoch: 155/300 --- train mae: 0.0457 val mae: 0.117
+tensor(0.0462, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0502, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0547, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0473, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1153, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0579, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0554, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0514, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 157 failed to improve.
+Discarded: 70/150 weight updates ♻🗑️
+Epoch: 157/300 --- train mae: 0.0425 val mae: 0.105
+tensor(0.0425, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0438, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0520, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0658, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0462, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1102, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0082, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0816, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0787, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 159 failed to improve.
+Discarded: 71/150 weight updates ♻🗑️
+Epoch: 159/300 --- train mae: 0.0552 val mae: 0.118
+tensor(0.0568, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0552, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0433, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0467, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0637, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1019, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0891, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0874, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 161 failed to improve.
+Discarded: 72/150 weight updates ♻🗑️
+Epoch: 161/300 --- train mae: 0.0352 val mae: 0.0965
+tensor(0.0358, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0373, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0337, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0471, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0585, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0708, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0346, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0484, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 163 failed to improve.
+Discarded: 73/150 weight updates ♻🗑️
+Epoch: 163/300 --- train mae: 0.0438 val mae: 0.099
+tensor(0.0422, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0379, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0381, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0473, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0384, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0618, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0998, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0475, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 165 failed to improve.
+Discarded: 74/150 weight updates ♻🗑️
+Epoch: 165/300 --- train mae: 0.0554 val mae: 0.109
+tensor(0.0559, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0560, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0339, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0668, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0685, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0672, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0662, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0643, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 167 failed to improve.
+Discarded: 75/150 weight updates ♻🗑️
+Epoch: 167/300 --- train mae: 0.0398 val mae: 0.101
+tensor(0.0351, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0343, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0410, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0661, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0629, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0810, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0472, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0435, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 169 failed to improve.
+Discarded: 76/150 weight updates ♻🗑️
+Epoch: 169/300 --- train mae: 0.0384 val mae: 0.0939
+tensor(0.0348, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0323, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0352, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0513, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0409, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1260, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0515, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1020, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 171 failed to improve.
+Discarded: 77/150 weight updates ♻🗑️
+Epoch: 171/300 --- train mae: 0.0638 val mae: 0.115
+tensor(0.0619, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0607, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0318, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1045, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1051, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0082, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1168, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0089, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1104, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0750, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 173 failed to improve.
+Discarded: 78/150 weight updates ♻🗑️
+Epoch: 173/300 --- train mae: 0.0442 val mae: 0.107
+tensor(0.0486, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0474, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0375, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0674, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0581, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0643, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0372, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0488, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 175 failed to improve.
+Discarded: 79/150 weight updates ♻🗑️
+Epoch: 175/300 --- train mae: 0.0388 val mae: 0.0992
+tensor(0.0371, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0373, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0431, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0422, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0365, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0751, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0718, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0444, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 177 failed to improve.
+Discarded: 80/150 weight updates ♻🗑️
+Epoch: 177/300 --- train mae: 0.0464 val mae: 0.102
+tensor(0.0460, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0452, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0324, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0478, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0776, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0798, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0656, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0623, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 179 failed to improve.
+Discarded: 81/150 weight updates ♻🗑️
+Epoch: 179/300 --- train mae: 0.0362 val mae: 0.0976
+tensor(0.0345, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0306, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0346, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0402, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0513, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0958, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0405, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0412, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 181 failed to improve.
+Discarded: 82/150 weight updates ♻🗑️
+Epoch: 181/300 --- train mae: 0.0459 val mae: 0.105
+tensor(0.0425, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0404, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0315, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0604, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0325, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0610, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0590, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0592, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 183 failed to improve.
+Discarded: 83/150 weight updates ♻🗑️
+Epoch: 183/300 --- train mae: 0.0479 val mae: 0.109
+tensor(0.0458, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0434, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0308, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0442, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0522, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1093, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0727, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0767, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 185 failed to improve.
+Discarded: 84/150 weight updates ♻🗑️
+Epoch: 185/300 --- train mae: 0.0404 val mae: 0.0954
+tensor(0.0351, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0346, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0338, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0554, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0552, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0850, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0431, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0443, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 187 failed to improve.
+Discarded: 85/150 weight updates ♻🗑️
+Epoch: 187/300 --- train mae: 0.0396 val mae: 0.113
+tensor(0.0462, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0438, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0338, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0681, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0383, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0859, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0960, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0569, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 189 failed to improve.
+Discarded: 86/150 weight updates ♻🗑️
+Epoch: 189/300 --- train mae: 0.0598 val mae: 0.107
+tensor(0.0502, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0496, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0387, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0377, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0843, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0954, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0745, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0829, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 191 failed to improve.
+Discarded: 87/150 weight updates ♻🗑️
+Epoch: 191/300 --- train mae: 0.0376 val mae: 0.0951
+tensor(0.0309, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0335, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0342, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0462, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0518, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0647, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0396, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0414, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 193 failed to improve.
+Discarded: 88/150 weight updates ♻🗑️
+Epoch: 193/300 --- train mae: 0.0381 val mae: 0.101
+tensor(0.0363, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0342, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0336, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0433, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0316, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0631, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0619, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0541, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 195 failed to improve.
+Discarded: 89/150 weight updates ♻🗑️
+Epoch: 195/300 --- train mae: 0.051 val mae: 0.11
+tensor(0.0494, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0459, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0292, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0337, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0496, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0886, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0831, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0679, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 197 failed to improve.
+Discarded: 90/150 weight updates ♻🗑️
+Epoch: 197/300 --- train mae: 0.0318 val mae: 0.0973
+tensor(0.0316, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0304, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0298, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0475, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0488, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0865, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0570, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0513, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 199 failed to improve.
+Discarded: 91/150 weight updates ♻🗑️
+Epoch: 199/300 --- train mae: 0.0404 val mae: 0.0996
+tensor(0.0378, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0390, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0351, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0504, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0329, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1179, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0674, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1112, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 201 failed to improve.
+Discarded: 92/150 weight updates ♻🗑️
+Epoch: 201/300 --- train mae: 0.0735 val mae: 0.144
+tensor(0.0764, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0815, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0321, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1036, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1167, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1003, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0083, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1077, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0930, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 203 failed to improve.
+Discarded: 93/150 weight updates ♻🗑️
+Epoch: 203/300 --- train mae: 0.0476 val mae: 0.108
+tensor(0.0430, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0431, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0341, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0886, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0527, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1336, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0356, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0749, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 205 failed to improve.
+Discarded: 94/150 weight updates ♻🗑️
+Epoch: 205/300 --- train mae: 0.0745 val mae: 0.132
+tensor(0.0736, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0712, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0399, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1282, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0962, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0975, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0884, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0701, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 207 failed to improve.
+Discarded: 95/150 weight updates ♻🗑️
+Epoch: 207/300 --- train mae: 0.075 val mae: 0.125
+tensor(0.0693, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0695, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0523, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0729, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1416, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1060, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0096, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1122, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0097, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0730, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0087, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 209 failed to improve.
+Discarded: 96/150 weight updates ♻🗑️
+Epoch: 209/300 --- train mae: 0.0443 val mae: 0.119
+tensor(0.0426, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0463, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0407, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0492, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0578, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0741, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0081, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0431, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0500, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 211 failed to improve.
+Discarded: 97/150 weight updates ♻🗑️
+Epoch: 211/300 --- train mae: 0.0516 val mae: 0.0979
+tensor(0.0408, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0406, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0411, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0709, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0427, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0716, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0680, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0565, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 213 failed to improve.
+Discarded: 98/150 weight updates ♻🗑️
+Epoch: 213/300 --- train mae: 0.0596 val mae: 0.111
+tensor(0.0584, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0544, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0319, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0774, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0617, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1351, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0719, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0936, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 215 failed to improve.
+Discarded: 99/150 weight updates ♻🗑️
+Epoch: 215/300 --- train mae: 0.0381 val mae: 0.111
+tensor(0.0428, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0406, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0423, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1011, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0519, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1421, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0540, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0627, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 217 failed to improve.
+Discarded: 100/150 weight updates ♻🗑️
+Epoch: 217/300 --- train mae: 0.0857 val mae: 0.122
+tensor(0.0726, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0725, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0330, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1068, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1088, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0585, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0566, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0682, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 219 failed to improve.
+Discarded: 101/150 weight updates ♻🗑️
+Epoch: 219/300 --- train mae: 0.0501 val mae: 0.122
+tensor(0.0524, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0537, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0481, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0844, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1483, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0889, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0098, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0995, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0097, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0759, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 221 failed to improve.
+Discarded: 102/150 weight updates ♻🗑️
+Epoch: 221/300 --- train mae: 0.0433 val mae: 0.107
+tensor(0.0433, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0435, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0299, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0718, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0730, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0626, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0346, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0522, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 223 failed to improve.
+Discarded: 103/150 weight updates ♻🗑️
+Epoch: 223/300 --- train mae: 0.048 val mae: 0.112
+tensor(0.0456, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0416, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0402, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0574, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0430, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1006, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0629, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0770, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 225 failed to improve.
+Discarded: 104/150 weight updates ♻🗑️
+Epoch: 225/300 --- train mae: 0.059 val mae: 0.121
+tensor(0.0570, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0530, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0390, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0683, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0674, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1030, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0902, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0713, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 227 failed to improve.
+Discarded: 105/150 weight updates ♻🗑️
+Epoch: 227/300 --- train mae: 0.0326 val mae: 0.103
+tensor(0.0356, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0337, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0498, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0783, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0689, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0854, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0385, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0456, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 229 failed to improve.
+Discarded: 106/150 weight updates ♻🗑️
+Epoch: 229/300 --- train mae: 0.0444 val mae: 0.102
+tensor(0.0370, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0381, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0358, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0648, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0543, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1267, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0659, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0756, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 231 failed to improve.
+Discarded: 107/150 weight updates ♻🗑️
+Epoch: 231/300 --- train mae: 0.0916 val mae: 0.138
+tensor(0.0840, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0835, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0432, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0813, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1217, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0648, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0085, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1059, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0084, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0533, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 233 failed to improve.
+Discarded: 108/150 weight updates ♻🗑️
+Epoch: 233/300 --- train mae: 0.0372 val mae: 0.106
+tensor(0.0409, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0411, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0272, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0664, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0436, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0813, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0340, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0703, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 235 failed to improve.
+Discarded: 109/150 weight updates ♻🗑️
+Epoch: 235/300 --- train mae: 0.0745 val mae: 0.117
+tensor(0.0631, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0626, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0339, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1155, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0908, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0711, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0897, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0528, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 237 failed to improve.
+Discarded: 110/150 weight updates ♻🗑️
+Epoch: 237/300 --- train mae: 0.0591 val mae: 0.12
+tensor(0.0622, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0558, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0570, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0556, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1038, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0780, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0080, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0760, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0078, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0642, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0073, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 239 failed to improve.
+Discarded: 111/150 weight updates ♻🗑️
+Epoch: 239/300 --- train mae: 0.034 val mae: 0.104
+tensor(0.0356, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0347, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0321, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0514, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0511, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0987, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0385, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0548, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 241 failed to improve.
+Discarded: 112/150 weight updates ♻🗑️
+Epoch: 241/300 --- train mae: 0.0415 val mae: 0.102
+tensor(0.0362, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0332, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0423, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0561, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0470, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0974, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0695, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0604, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 243 failed to improve.
+Discarded: 113/150 weight updates ♻🗑️
+Epoch: 243/300 --- train mae: 0.0551 val mae: 0.123
+tensor(0.0561, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0617, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0381, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0666, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0746, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1080, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0072, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0816, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0752, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 245 failed to improve.
+Discarded: 114/150 weight updates ♻🗑️
+Epoch: 245/300 --- train mae: 0.0365 val mae: 0.103
+tensor(0.0341, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0338, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0388, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0616, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0640, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0697, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0322, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0483, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 247 failed to improve.
+Discarded: 115/150 weight updates ♻🗑️
+Epoch: 247/300 --- train mae: 0.043 val mae: 0.0981
+tensor(0.0362, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0381, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0372, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0564, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0308, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0663, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0541, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0649, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 249 failed to improve.
+Discarded: 116/150 weight updates ♻🗑️
+Epoch: 249/300 --- train mae: 0.0536 val mae: 0.127
+tensor(0.0576, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0532, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0317, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0878, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0531, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0903, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0712, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0601, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 251 failed to improve.
+Discarded: 117/150 weight updates ♻🗑️
+Epoch: 251/300 --- train mae: 0.0386 val mae: 0.0997
+tensor(0.0335, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0306, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0435, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0520, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0873, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0708, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0460, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0391, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 253 failed to improve.
+Discarded: 118/150 weight updates ♻🗑️
+Epoch: 253/300 --- train mae: 0.0495 val mae: 0.115
+tensor(0.0459, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0482, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0354, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0699, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0447, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0925, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0888, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0854, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 255 failed to improve.
+Discarded: 119/150 weight updates ♻🗑️
+Epoch: 255/300 --- train mae: 0.0667 val mae: 0.117
+tensor(0.0632, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0622, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0392, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0849, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0659, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1367, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0968, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0076, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0759, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 257 failed to improve.
+Discarded: 120/150 weight updates ♻🗑️
+Epoch: 257/300 --- train mae: 0.0561 val mae: 0.113
+tensor(0.0457, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0470, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0293, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0820, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0639, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1384, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0571, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0481, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 259 failed to improve.
+Discarded: 121/150 weight updates ♻🗑️
+Epoch: 259/300 --- train mae: 0.0612 val mae: 0.13
+tensor(0.0656, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0643, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0391, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0989, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0810, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0993, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0843, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0629, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 261 failed to improve.
+Discarded: 122/150 weight updates ♻🗑️
+Epoch: 261/300 --- train mae: 0.0692 val mae: 0.12
+tensor(0.0633, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0614, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0487, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0708, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1076, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1054, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0077, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.1151, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0872, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0075, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 263 failed to improve.
+Discarded: 123/150 weight updates ♻🗑️
+Epoch: 263/300 --- train mae: 0.0543 val mae: 0.109
+tensor(0.0491, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0448, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0371, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0535, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0808, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0074, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0732, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0079, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0392, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0337, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 265 failed to improve.
+Discarded: 124/150 weight updates ♻🗑️
+Epoch: 265/300 --- train mae: 0.0412 val mae: 0.106
+tensor(0.0394, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0402, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0331, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0493, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0069, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0333, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0604, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0651, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0534, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 267 failed to improve.
+Discarded: 125/150 weight updates ♻🗑️
+Epoch: 267/300 --- train mae: 0.0535 val mae: 0.109
+tensor(0.0461, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0443, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0277, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0695, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0532, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0987, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0070, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0736, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0071, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0584, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 269 failed to improve.
+Discarded: 126/150 weight updates ♻🗑️
+Epoch: 269/300 --- train mae: 0.0304 val mae: 0.108
+tensor(0.0321, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0322, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0317, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0465, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0508, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0809, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0433, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0376, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 271 failed to improve.
+Discarded: 127/150 weight updates ♻🗑️
+Epoch: 271/300 --- train mae: 0.0429 val mae: 0.103
+tensor(0.0349, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0378, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0273, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0514, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0407, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0664, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0560, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0547, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0057, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 273 failed to improve.
+Discarded: 128/150 weight updates ♻🗑️
+Epoch: 273/300 --- train mae: 0.0514 val mae: 0.12
+tensor(0.0567, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0538, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0335, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0057, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0507, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0653, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0676, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0963, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0662, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 275 failed to improve.
+Discarded: 129/150 weight updates ♻🗑️
+Epoch: 275/300 --- train mae: 0.0299 val mae: 0.109
+tensor(0.0333, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0325, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0318, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0495, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0455, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0761, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0329, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0414, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 277 failed to improve.
+Discarded: 130/150 weight updates ♻🗑️
+Epoch: 277/300 --- train mae: 0.0423 val mae: 0.102
+tensor(0.0356, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0361, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0296, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0623, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0392, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0679, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0522, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0575, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 279 failed to improve.
+Discarded: 131/150 weight updates ♻🗑️
+Epoch: 279/300 --- train mae: 0.0515 val mae: 0.125
+tensor(0.0523, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0552, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0313, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0498, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0056, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0853, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0067, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0617, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0730, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0544, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 281 failed to improve.
+Discarded: 132/150 weight updates ♻🗑️
+Epoch: 281/300 --- train mae: 0.0299 val mae: 0.104
+tensor(0.0300, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0057, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0310, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0283, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0337, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0385, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0566, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0476, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0371, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 283 failed to improve.
+Discarded: 133/150 weight updates ♻🗑️
+Epoch: 283/300 --- train mae: 0.0398 val mae: 0.0997
+tensor(0.0334, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0323, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0376, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0057, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0384, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0267, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0789, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0828, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0640, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 285 failed to improve.
+Discarded: 134/150 weight updates ♻🗑️
+Epoch: 285/300 --- train mae: 0.0567 val mae: 0.113
+tensor(0.0522, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0501, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0302, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0057, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0424, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0056, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0535, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0628, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0672, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0627, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0068, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 287 failed to improve.
+Discarded: 135/150 weight updates ♻🗑️
+Epoch: 287/300 --- train mae: 0.0362 val mae: 0.103
+tensor(0.0325, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0334, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0326, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0443, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0755, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0701, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0375, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0339, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 289 failed to improve.
+Discarded: 136/150 weight updates ♻🗑️
+Epoch: 289/300 --- train mae: 0.0359 val mae: 0.104
+tensor(0.0293, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0304, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0300, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0057, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0435, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0278, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0678, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0806, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0459, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 291 failed to improve.
+Discarded: 137/150 weight updates ♻🗑️
+Epoch: 291/300 --- train mae: 0.0476 val mae: 0.117
+tensor(0.0493, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0492, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0310, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0056, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0516, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0549, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0597, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0977, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0580, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0064, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 293 failed to improve.
+Discarded: 138/150 weight updates ♻🗑️
+Epoch: 293/300 --- train mae: 0.03 val mae: 0.104
+tensor(0.0290, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0057, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0279, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0057, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0355, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0057, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0452, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0560, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0969, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0065, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0430, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0057, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0601, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 295 failed to improve.
+Discarded: 139/150 weight updates ♻🗑️
+Epoch: 295/300 --- train mae: 0.0436 val mae: 0.109
+tensor(0.0400, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0380, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0391, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0584, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0059, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0365, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0056, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0529, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0584, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0578, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 297 failed to improve.
+Discarded: 140/150 weight updates ♻🗑️
+Epoch: 297/300 --- train mae: 0.049 val mae: 0.115
+tensor(0.0498, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0062, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0491, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0280, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0057, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0526, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0058, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0470, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0061, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0565, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0060, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0554, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0063, device='cuda:0', grad_fn=<MseLossBackward0>)
+tensor(0.0561, device='cuda:0', grad_fn=<MeanBackward0>) tensor(0.0066, device='cuda:0', grad_fn=<MseLossBackward0>)
+Epoch 299 failed to improve.
+Discarded: 141/150 weight updates ♻🗑️
+Epoch: 299/300 --- train mae: 0.0318 val mae: 0.101
+Saving checkpoint (mp_e_form_MPdata_JVpretrain_MPfinetune_ratio0.05_epoch299) to /home/zd/zd/teaching_net/CrabNet/models/pretrain_models_ratioChange_2dataset/mp_e_form_MPdata_JVpretrain_MPfinetune_ratio0.05_epoch299.pth
+Saving network (mp_e_form_MPdata_JVpretrain_MPfinetune_ratio0.05) to /home/zd/zd/teaching_net/CrabNet/models/pretrain_models_ratioChange_2dataset/mp_e_form_MPdata_JVpretrain_MPfinetune_ratio0.05.pth
+=====================================================
+                      mp_e_form                      
+=====================================================
+calculating train mae
+mp_e_form_MPdata_JVpretrain_MPfinetune_ratio0.05 /home/zd/zd/teaching_net/CrabNet/models/pretrain_models_ratioChange_2dataset
+loading data with up to 7 elements in the formula
+mp_e_form mae: 0.0467
+-----------------------------------------------------
+calculating val mae
+mp_e_form_MPdata_JVpretrain_MPfinetune_ratio0.05 /home/zd/zd/teaching_net/CrabNet/models/pretrain_models_ratioChange_2dataset
+loading data with up to 7 elements in the formula
+mp_e_form mae: 0.0831
+-----------------------------------------------------
+calculating test mae
+mp_e_form_MPdata_JVpretrain_MPfinetune_ratio0.05 /home/zd/zd/teaching_net/CrabNet/models/pretrain_models_ratioChange_2dataset
+loading data with up to 6 elements in the formula
+mp_e_form mae: 0.0875
+=====================================================

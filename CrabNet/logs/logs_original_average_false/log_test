@@ -1,0 +1,5296 @@
+nohup: ignoring input
+nohup: ignoring input
+Traceback (most recent call last):
+  File "train_crabnet.py", line 10, in <module>
+    from crabnet.model import Model
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 21, in <module>
+    from pretrained import get_multiple_predictions, get_figshare_model
+  File "/home/zd/zd/teaching_net/alignn/alignn/pretrained.py", line 8, in <module>
+    from models.alignn import ALIGNN, ALIGNNConfig
+  File "/home/zd/zd/teaching_net/alignn/alignn/models/alignn.py", line 7, in <module>
+    import dgl
+ModuleNotFoundError: No module named 'dgl'
+nohup: ignoring input
+Traceback (most recent call last):
+  File "train_crabnet.py", line 10, in <module>
+    from crabnet.model import Model
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 21, in <module>
+    from pretrained import get_multiple_predictions, get_figshare_model
+  File "/home/zd/zd/teaching_net/alignn/alignn/pretrained.py", line 8, in <module>
+    from models.alignn import ALIGNN, ALIGNNConfig
+  File "/home/zd/zd/teaching_net/alignn/alignn/models/alignn.py", line 7, in <module>
+    import dgl
+ModuleNotFoundError: No module named 'dgl'
+nohup: ignoring input
+Property "mp_e_form" selected for training
+model_name:  mp_e_form_ori
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+
+Generating EDM:   0%|          | 0/35426 [00:00<?, ?formulae/s]
+Generating EDM:  28%|██▊       | 9886/35426 [00:00<00:00, 98848.31formulae/s]
+Generating EDM:  59%|█████▉    | 20927/35426 [00:00<00:00, 105640.88formulae/s]
+Generating EDM:  89%|████████▉ | 31550/35426 [00:00<00:00, 105904.15formulae/s]
+Generating EDM: 100%|██████████| 35426/35426 [00:00<00:00, 105073.52formulae/s]
+loading data with up to 8 elements in the formula
+training with batchsize 512 (2**9.000)
+
+Generating EDM:   0%|          | 0/3934 [00:00<?, ?formulae/s]
+Generating EDM: 100%|██████████| 3934/3934 [00:00<00:00, 119665.18formulae/s]
+loading data with up to 8 elements in the formula
+stepping every 70 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+Epoch: 0/300 --- train mae: 0.344 val mae: 0.356
+Epoch: 1/300 --- train mae: 0.192 val mae: 0.202
+nohup: ignoring input
+Property "mp_e_form" selected for training
+model_name:  mp_e_form_ori
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+
+Generating EDM:   0%|          | 0/35426 [00:00<?, ?formulae/s]
+Generating EDM:  29%|██▉       | 10390/35426 [00:00<00:00, 103892.17formulae/s]
+Generating EDM:  60%|█████▉    | 21254/35426 [00:00<00:00, 106678.55formulae/s]
+Generating EDM:  90%|█████████ | 31922/35426 [00:00<00:00, 103990.95formulae/s]
+Generating EDM: 100%|██████████| 35426/35426 [00:00<00:00, 104168.87formulae/s]
+loading data with up to 8 elements in the formula
+training with batchsize 512 (2**9.000)
+
+Generating EDM:   0%|          | 0/3934 [00:00<?, ?formulae/s]
+Generating EDM: 100%|██████████| 3934/3934 [00:00<00:00, 114129.54formulae/s]
+loading data with up to 8 elements in the formula
+stepping every 70 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+Epoch: 0/300 --- train mae: 0.344 val mae: 0.356
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+outside
+nohup: ignoring input
+Property "mp_e_form" selected for training
+model_name:  mp_e_form_ori
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+
+Generating EDM:   0%|          | 0/35426 [00:00<?, ?formulae/s]
+Generating EDM:  30%|██▉       | 10480/35426 [00:00<00:00, 104782.86formulae/s]
+Generating EDM:  61%|██████▏   | 21713/35426 [00:00<00:00, 109214.31formulae/s]
+Generating EDM:  92%|█████████▏| 32635/35426 [00:00<00:00, 107737.91formulae/s]
+Generating EDM: 100%|██████████| 35426/35426 [00:00<00:00, 107544.70formulae/s]
+loading data with up to 8 elements in the formula
+training with batchsize 512 (2**9.000)
+
+Generating EDM:   0%|          | 0/3934 [00:00<?, ?formulae/s]
+Generating EDM: 100%|██████████| 3934/3934 [00:00<00:00, 89283.97formulae/s]
+loading data with up to 8 elements in the formula
+stepping every 70 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+Epoch: 0/300 --- train mae: 0.344 val mae: 0.356
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+nohup: ignoring input
+Property "mp_e_form" selected for training
+model_name:  mp_e_form_ori
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+
+Generating EDM:   0%|          | 0/35426 [00:00<?, ?formulae/s]
+Generating EDM:  24%|██▍       | 8571/35426 [00:00<00:00, 85700.68formulae/s]
+Generating EDM:  55%|█████▍    | 19441/35426 [00:00<00:00, 99224.27formulae/s]
+Generating EDM:  85%|████████▍ | 30003/35426 [00:00<00:00, 102137.92formulae/s]
+Generating EDM: 100%|██████████| 35426/35426 [00:00<00:00, 100307.23formulae/s]
+loading data with up to 8 elements in the formula
+training with batchsize 512 (2**9.000)
+
+Generating EDM:   0%|          | 0/3934 [00:00<?, ?formulae/s]
+Generating EDM: 100%|██████████| 3934/3934 [00:00<00:00, 122336.59formulae/s]
+loading data with up to 8 elements in the formula
+stepping every 70 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+Epoch: 0/300 --- train mae: 0.344 val mae: 0.356
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+inside the need weights, demostrate that this is true
+nohup: ignoring input
+Property "mp_e_form" selected for training
+model_name:  mp_e_form_ori
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+
+Generating EDM:   0%|          | 0/35426 [00:00<?, ?formulae/s]
+Generating EDM:  24%|██▍       | 8425/35426 [00:00<00:00, 84236.42formulae/s]
+Generating EDM:  55%|█████▌    | 19624/35426 [00:00<00:00, 100552.99formulae/s]
+Generating EDM:  87%|████████▋ | 30653/35426 [00:00<00:00, 104995.49formulae/s]
+Generating EDM: 100%|██████████| 35426/35426 [00:00<00:00, 103406.30formulae/s]
+loading data with up to 8 elements in the formula
+training with batchsize 512 (2**9.000)
+
+Generating EDM:   0%|          | 0/3934 [00:00<?, ?formulae/s]
+Generating EDM: 100%|██████████| 3934/3934 [00:00<00:00, 88076.31formulae/s]
+loading data with up to 8 elements in the formula
+stepping every 70 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([98, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([98, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([98, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([98, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([98, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([98, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+Epoch: 0/300 --- train mae: 0.344 val mae: 0.356
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([350, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+inside the need weights, demostrate that this is true
+torch.Size([512, 4, 8, 8])
+
+
+set the transformer attention paremeters to false, prove that there is no difference between
+sett and do not set

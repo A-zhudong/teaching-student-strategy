@@ -1,0 +1,445 @@
+nohup: ignoring input
+Property "jarvis_bandgap" selected for training
+model_name:  jarvis_bandgap_struPred_epoch299_finetune
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Generating EDM:   0%|          | 0/28639 [00:00<?, ?formulae/s]Generating EDM:  37%|███▋      | 10504/28639 [00:00<00:00, 105029.08formulae/s]Generating EDM:  76%|███████▌  | 21696/28639 [00:00<00:00, 109075.87formulae/s]Generating EDM: 100%|██████████| 28639/28639 [00:00<00:00, 108925.62formulae/s]
+loading data with up to 7 elements in the formula
+training with batchsize 512 (2**9.000)
+Generating EDM:   0%|          | 0/3185 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 3185/3185 [00:00<00:00, 150380.01formulae/s]
+loading data with up to 7 elements in the formula
+stepping every 56 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+Traceback (most recent call last):
+  File "train_crabnet.py", line 165, in <module>
+    model = get_model(data_dir, mat_prop, classification, \
+  File "train_crabnet.py", line 64, in get_model
+    model.fit(epochs=300, losscurve=False)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 336, in fit
+    self.train()
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 205, in train
+    output, embs_carbnet = self.model.forward(src, frac, crab_ori=ori_emb)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/kingcrab.py", line 266, in forward
+    embeddings = embeddings+crab_ori
+RuntimeError: The size of tensor a (256) must match the size of tensor b (131072) at non-singleton dimension 1
+nohup: ignoring input
+Property "jarvis_bandgap" selected for training
+model_name:  jarvis_bandgap_struPred_epoch299_finetune
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Generating EDM:   0%|          | 0/28639 [00:00<?, ?formulae/s]Generating EDM:  36%|███▋      | 10402/28639 [00:00<00:00, 104006.71formulae/s]Generating EDM:  76%|███████▌  | 21781/28639 [00:00<00:00, 109754.57formulae/s]Generating EDM: 100%|██████████| 28639/28639 [00:00<00:00, 109546.58formulae/s]
+loading data with up to 7 elements in the formula
+training with batchsize 512 (2**9.000)
+Generating EDM:   0%|          | 0/3185 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 3185/3185 [00:00<00:00, 136866.54formulae/s]
+loading data with up to 7 elements in the formula
+stepping every 56 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+torch.Size([512, 256]) torch.Size([131072])
+Traceback (most recent call last):
+  File "train_crabnet.py", line 165, in <module>
+    model = get_model(data_dir, mat_prop, classification, \
+  File "train_crabnet.py", line 64, in get_model
+    model.fit(epochs=300, losscurve=False)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 336, in fit
+    self.train()
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 205, in train
+    output, embs_carbnet = self.model.forward(src, frac, crab_ori=ori_emb)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/kingcrab.py", line 267, in forward
+    embeddings = embeddings+crab_ori
+RuntimeError: The size of tensor a (256) must match the size of tensor b (131072) at non-singleton dimension 1
+nohup: ignoring input
+Property "jarvis_bandgap" selected for training
+model_name:  jarvis_bandgap_struPred_epoch299_finetune
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Generating EDM:   0%|          | 0/28639 [00:00<?, ?formulae/s]Generating EDM:  35%|███▌      | 10149/28639 [00:00<00:00, 101480.42formulae/s]Generating EDM:  75%|███████▍  | 21406/28639 [00:00<00:00, 107996.39formulae/s]Generating EDM: 100%|██████████| 28639/28639 [00:00<00:00, 107420.17formulae/s]
+loading data with up to 7 elements in the formula
+training with batchsize 512 (2**9.000)
+Generating EDM:   0%|          | 0/3185 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 3185/3185 [00:00<00:00, 123304.95formulae/s]
+loading data with up to 7 elements in the formula
+stepping every 56 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+torch.Size([256])
+torch.Size([512, 256]) torch.Size([131072])
+Traceback (most recent call last):
+  File "train_crabnet.py", line 165, in <module>
+    model = get_model(data_dir, mat_prop, classification, \
+  File "train_crabnet.py", line 64, in get_model
+    model.fit(epochs=300, losscurve=False)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 337, in fit
+    self.train()
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 206, in train
+    output, embs_carbnet = self.model.forward(src, frac, crab_ori=ori_emb)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/kingcrab.py", line 267, in forward
+    embeddings = embeddings+crab_ori
+RuntimeError: The size of tensor a (256) must match the size of tensor b (131072) at non-singleton dimension 1
+nohup: ignoring input
+Property "jarvis_bandgap" selected for training
+model_name:  jarvis_bandgap_struPred_epoch299_finetune
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Generating EDM:   0%|          | 0/28639 [00:00<?, ?formulae/s]Generating EDM:  32%|███▏      | 9168/28639 [00:00<00:00, 91669.16formulae/s]Generating EDM:  71%|███████▏  | 20409/28639 [00:00<00:00, 103860.23formulae/s]Generating EDM: 100%|██████████| 28639/28639 [00:00<00:00, 104509.65formulae/s]
+loading data with up to 7 elements in the formula
+training with batchsize 512 (2**9.000)
+Generating EDM:   0%|          | 0/3185 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 3185/3185 [00:00<00:00, 131135.05formulae/s]
+loading data with up to 7 elements in the formula
+stepping every 56 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+torch.Size([256]) 512
+torch.Size([512, 256]) torch.Size([131072])
+Traceback (most recent call last):
+  File "train_crabnet.py", line 165, in <module>
+    model = get_model(data_dir, mat_prop, classification, \
+  File "train_crabnet.py", line 64, in get_model
+    model.fit(epochs=300, losscurve=False)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 337, in fit
+    self.train()
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 206, in train
+    output, embs_carbnet = self.model.forward(src, frac, crab_ori=ori_emb)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/kingcrab.py", line 267, in forward
+    embeddings = embeddings+crab_ori
+RuntimeError: The size of tensor a (256) must match the size of tensor b (131072) at non-singleton dimension 1
+nohup: ignoring input
+Property "jarvis_bandgap" selected for training
+model_name:  jarvis_bandgap_struPred_epoch299_finetune
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Generating EDM:   0%|          | 0/28639 [00:00<?, ?formulae/s]Generating EDM:  38%|███▊      | 10781/28639 [00:00<00:00, 107799.05formulae/s]Generating EDM:  77%|███████▋  | 22106/28639 [00:00<00:00, 110994.99formulae/s]Generating EDM: 100%|██████████| 28639/28639 [00:00<00:00, 111546.02formulae/s]
+loading data with up to 7 elements in the formula
+training with batchsize 512 (2**9.000)
+Generating EDM:   0%|          | 0/3185 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 3185/3185 [00:00<00:00, 138610.44formulae/s]
+loading data with up to 7 elements in the formula
+stepping every 56 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+torch.Size([256]) 512
+torch.Size([131072])
+torch.Size([512, 256]) torch.Size([131072])
+Traceback (most recent call last):
+  File "train_crabnet.py", line 165, in <module>
+    model = get_model(data_dir, mat_prop, classification, \
+  File "train_crabnet.py", line 64, in get_model
+    model.fit(epochs=300, losscurve=False)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 338, in fit
+    self.train()
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 207, in train
+    output, embs_carbnet = self.model.forward(src, frac, crab_ori=ori_emb)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/kingcrab.py", line 267, in forward
+    embeddings = embeddings+crab_ori
+RuntimeError: The size of tensor a (256) must match the size of tensor b (131072) at non-singleton dimension 1
+nohup: ignoring input
+Property "jarvis_bandgap" selected for training
+model_name:  jarvis_bandgap_struPred_epoch299_finetune
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Generating EDM:   0%|          | 0/28639 [00:00<?, ?formulae/s]Generating EDM:  31%|███       | 8869/28639 [00:00<00:00, 88678.88formulae/s]Generating EDM:  70%|██████▉   | 19940/28639 [00:00<00:00, 101629.20formulae/s]Generating EDM: 100%|██████████| 28639/28639 [00:00<00:00, 102613.74formulae/s]
+loading data with up to 7 elements in the formula
+training with batchsize 512 (2**9.000)
+Generating EDM:   0%|          | 0/3185 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 3185/3185 [00:00<00:00, 134362.51formulae/s]
+loading data with up to 7 elements in the formula
+stepping every 56 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+torch.Size([256]) 512
+Traceback (most recent call last):
+  File "train_crabnet.py", line 165, in <module>
+    model = get_model(data_dir, mat_prop, classification, \
+  File "train_crabnet.py", line 64, in get_model
+    model.fit(epochs=300, losscurve=False)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 338, in fit
+    self.train()
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 205, in train
+    ori_emb = torch.cat(ori_emb, dim=1).to(self.compute_device)
+IndexError: Dimension out of range (expected to be in range of [-1, 0], but got 1)
+nohup: ignoring input
+Property "jarvis_bandgap" selected for training
+model_name:  jarvis_bandgap_struPred_epoch299_finetune
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Generating EDM:   0%|          | 0/28639 [00:00<?, ?formulae/s]Generating EDM:  30%|██▉       | 8538/28639 [00:00<00:00, 85368.07formulae/s]Generating EDM:  68%|██████▊   | 19423/28639 [00:00<00:00, 99176.20formulae/s]Generating EDM: 100%|██████████| 28639/28639 [00:00<00:00, 100006.97formulae/s]
+loading data with up to 7 elements in the formula
+training with batchsize 512 (2**9.000)
+Generating EDM:   0%|          | 0/3185 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 3185/3185 [00:00<00:00, 148785.54formulae/s]
+loading data with up to 7 elements in the formula
+stepping every 56 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+Traceback (most recent call last):
+  File "train_crabnet.py", line 165, in <module>
+    model = get_model(data_dir, mat_prop, classification, \
+  File "train_crabnet.py", line 64, in get_model
+    model.fit(epochs=300, losscurve=False)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 336, in fit
+    self.train()
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 205, in train
+    output, embs_carbnet = self.model.forward(src, frac, crab_ori=ori_emb)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/kingcrab.py", line 267, in forward
+    embeddings = embeddings+crab_ori
+RuntimeError: The size of tensor a (256) must match the size of tensor b (131072) at non-singleton dimension 1
+nohup: ignoring input
+Property "jarvis_bandgap" selected for training
+model_name:  jarvis_bandgap_struPred_epoch299_finetune
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Generating EDM:   0%|          | 0/28639 [00:00<?, ?formulae/s]Generating EDM:  30%|███       | 8606/28639 [00:00<00:00, 86049.21formulae/s]Generating EDM:  69%|██████▉   | 19843/28639 [00:00<00:00, 101523.03formulae/s]Generating EDM: 100%|██████████| 28639/28639 [00:00<00:00, 102791.56formulae/s]
+loading data with up to 7 elements in the formula
+training with batchsize 512 (2**9.000)
+Generating EDM:   0%|          | 0/3185 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 3185/3185 [00:00<00:00, 131863.80formulae/s]
+loading data with up to 7 elements in the formula
+stepping every 56 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+Traceback (most recent call last):
+  File "train_crabnet.py", line 165, in <module>
+    model = get_model(data_dir, mat_prop, classification, \
+  File "train_crabnet.py", line 64, in get_model
+    model.fit(epochs=300, losscurve=False)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 356, in fit
+    act_t, pred_t, _, _, _ = self.predict(self.train_loader)
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 505, in predict
+    embeddings.update(dict(zip(formula, embedding.cpu().numpy())))
+UnboundLocalError: local variable 'embedding' referenced before assignment
+nohup: ignoring input
+Property "jarvis_bandgap" selected for training
+model_name:  jarvis_bandgap_struPred_epoch299_finetune
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Generating EDM:   0%|          | 0/28639 [00:00<?, ?formulae/s]Generating EDM:  35%|███▌      | 10147/28639 [00:00<00:00, 101458.00formulae/s]Generating EDM:  74%|███████▍  | 21163/28639 [00:00<00:00, 106571.55formulae/s]Generating EDM: 100%|██████████| 28639/28639 [00:00<00:00, 106040.88formulae/s]
+loading data with up to 7 elements in the formula
+training with batchsize 512 (2**9.000)
+Generating EDM:   0%|          | 0/3185 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 3185/3185 [00:00<00:00, 135632.57formulae/s]
+loading data with up to 7 elements in the formula
+stepping every 56 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+Epoch: 0/300 --- train mae: 0.114 val mae: 0.292
+Epoch: 1/300 --- train mae: 0.0542 val mae: 0.237
+Epoch: 3/300 --- train mae: 0.039 val mae: 0.208
+Epoch: 5/300 --- train mae: 0.0346 val mae: 0.193
+Epoch: 7/300 --- train mae: 0.0325 val mae: 0.19
+Epoch: 9/300 --- train mae: 0.0311 val mae: 0.188
+Epoch: 11/300 --- train mae: 0.03 val mae: 0.188
+Epoch: 13/300 --- train mae: 0.029 val mae: 0.187
+Epoch: 15/300 --- train mae: 0.0285 val mae: 0.187
+Epoch: 17/300 --- train mae: 0.0275 val mae: 0.187
+Epoch: 19/300 --- train mae: 0.027 val mae: 0.187
+Epoch: 21/300 --- train mae: 0.0263 val mae: 0.187
+Epoch: 23/300 --- train mae: 0.0259 val mae: 0.187
+Epoch: 25/300 --- train mae: 0.0254 val mae: 0.186
+Epoch: 27/300 --- train mae: 0.0247 val mae: 0.186
+Epoch: 29/300 --- train mae: 0.0243 val mae: 0.187
+Epoch: 31/300 --- train mae: 0.0238 val mae: 0.186
+Epoch: 33/300 --- train mae: 0.0234 val mae: 0.186
+Epoch: 35/300 --- train mae: 0.0227 val mae: 0.187
+Epoch: 37/300 --- train mae: 0.023 val mae: 0.187
+Epoch: 39/300 --- train mae: 0.022 val mae: 0.187
+Epoch: 41/300 --- train mae: 0.0219 val mae: 0.187
+Epoch: 43/300 --- train mae: 0.0211 val mae: 0.186
+Epoch: 45/300 --- train mae: 0.0205 val mae: 0.187
+Epoch: 47/300 --- train mae: 0.0208 val mae: 0.187
+Epoch: 49/300 --- train mae: 0.0203 val mae: 0.186
+Epoch: 51/300 --- train mae: 0.0201 val mae: 0.187
+Epoch: 53/300 --- train mae: 0.0197 val mae: 0.186
+Epoch: 55/300 --- train mae: 0.019 val mae: 0.186
+Epoch: 57/300 --- train mae: 0.019 val mae: 0.186
+Epoch: 59/300 --- train mae: 0.0182 val mae: 0.186
+Epoch: 61/300 --- train mae: 0.0176 val mae: 0.186
+Epoch: 63/300 --- train mae: 0.0171 val mae: 0.186
+Epoch: 65/300 --- train mae: 0.0176 val mae: 0.185
+Epoch: 67/300 --- train mae: 0.0168 val mae: 0.185
+Epoch: 69/300 --- train mae: 0.0163 val mae: 0.186
+Epoch: 71/300 --- train mae: 0.0166 val mae: 0.186
+Epoch: 73/300 --- train mae: 0.0165 val mae: 0.185
+Epoch: 75/300 --- train mae: 0.0161 val mae: 0.186
+Epoch: 77/300 --- train mae: 0.0157 val mae: 0.185
+Epoch: 79/300 --- train mae: 0.0152 val mae: 0.185
+Epoch: 81/300 --- train mae: 0.0154 val mae: 0.186
+Epoch: 83/300 --- train mae: 0.0155 val mae: 0.186
+Epoch: 85/300 --- train mae: 0.0154 val mae: 0.186
+Epoch: 87/300 --- train mae: 0.0154 val mae: 0.185
+Epoch: 89/300 --- train mae: 0.0145 val mae: 0.185
+Epoch: 91/300 --- train mae: 0.0146 val mae: 0.185
+Epoch: 93/300 --- train mae: 0.0144 val mae: 0.185
+Epoch: 95/300 --- train mae: 0.0138 val mae: 0.186
+Epoch: 97/300 --- train mae: 0.0139 val mae: 0.185
+Epoch: 99/300 --- train mae: 0.0136 val mae: 0.186
+Epoch: 101/300 --- train mae: 0.0135 val mae: 0.186
+Epoch: 103/300 --- train mae: 0.0134 val mae: 0.185
+Epoch: 105/300 --- train mae: 0.0129 val mae: 0.185
+Epoch: 107/300 --- train mae: 0.013 val mae: 0.185
+Epoch: 109/300 --- train mae: 0.0128 val mae: 0.186
+Epoch: 111/300 --- train mae: 0.0127 val mae: 0.186
+Epoch: 113/300 --- train mae: 0.0125 val mae: 0.185
+Epoch: 115/300 --- train mae: 0.0122 val mae: 0.186
+Epoch: 117/300 --- train mae: 0.0125 val mae: 0.186
+Epoch: 119/300 --- train mae: 0.0123 val mae: 0.186
+Epoch: 121/300 --- train mae: 0.012 val mae: 0.186
+Epoch: 123/300 --- train mae: 0.0122 val mae: 0.186
+Epoch: 125/300 --- train mae: 0.0118 val mae: 0.186
+Epoch: 127/300 --- train mae: 0.0117 val mae: 0.186
+Epoch: 129/300 --- train mae: 0.0117 val mae: 0.185
+Epoch: 131/300 --- train mae: 0.0121 val mae: 0.185
+Epoch: 133/300 --- train mae: 0.0116 val mae: 0.185
+Epoch: 135/300 --- train mae: 0.0117 val mae: 0.185
+Epoch: 137/300 --- train mae: 0.0113 val mae: 0.186
+Epoch: 139/300 --- train mae: 0.0112 val mae: 0.186
+Epoch: 141/300 --- train mae: 0.0111 val mae: 0.185
+Epoch: 143/300 --- train mae: 0.0107 val mae: 0.186
+Epoch: 145/300 --- train mae: 0.0112 val mae: 0.185
+Epoch: 147/300 --- train mae: 0.0108 val mae: 0.186
+Epoch: 149/300 --- train mae: 0.0109 val mae: 0.186
+Epoch: 151/300 --- train mae: 0.011 val mae: 0.186
+Epoch: 153/300 --- train mae: 0.0108 val mae: 0.185
+Epoch: 155/300 --- train mae: 0.0108 val mae: 0.186
+Epoch: 157/300 --- train mae: 0.0105 val mae: 0.185
+Epoch: 159/300 --- train mae: 0.0105 val mae: 0.185
+Epoch: 161/300 --- train mae: 0.0108 val mae: 0.185
+Epoch: 163/300 --- train mae: 0.0103 val mae: 0.185
+Epoch: 165/300 --- train mae: 0.0101 val mae: 0.185
+Epoch: 167/300 --- train mae: 0.0103 val mae: 0.185
+Epoch: 169/300 --- train mae: 0.0103 val mae: 0.184
+Epoch: 171/300 --- train mae: 0.00994 val mae: 0.184
+Epoch: 173/300 --- train mae: 0.00987 val mae: 0.184
+Epoch: 175/300 --- train mae: 0.01 val mae: 0.185
+Epoch: 177/300 --- train mae: 0.00982 val mae: 0.186
+Epoch: 179/300 --- train mae: 0.00954 val mae: 0.185
+Epoch: 181/300 --- train mae: 0.00986 val mae: 0.186
+Epoch: 183/300 --- train mae: 0.00934 val mae: 0.185
+Epoch: 185/300 --- train mae: 0.00919 val mae: 0.185
+Epoch: 187/300 --- train mae: 0.00956 val mae: 0.185
+Epoch: 189/300 --- train mae: 0.00952 val mae: 0.186
+Epoch: 191/300 --- train mae: 0.00919 val mae: 0.186
+Epoch: 193/300 --- train mae: 0.00917 val mae: 0.186
+Epoch: 195/300 --- train mae: 0.00923 val mae: 0.185
+Epoch: 197/300 --- train mae: 0.00893 val mae: 0.185
+Epoch: 199/300 --- train mae: 0.00946 val mae: 0.185
+Epoch: 201/300 --- train mae: 0.00894 val mae: 0.185
+Epoch: 203/300 --- train mae: 0.00899 val mae: 0.185
+Epoch: 205/300 --- train mae: 0.00884 val mae: 0.185
+Epoch: 207/300 --- train mae: 0.00898 val mae: 0.186
+Epoch: 209/300 --- train mae: 0.00907 val mae: 0.186
+Epoch: 211/300 --- train mae: 0.00874 val mae: 0.185
+Epoch: 213/300 --- train mae: 0.00854 val mae: 0.185
+Epoch: 215/300 --- train mae: 0.00849 val mae: 0.185
+Epoch: 217/300 --- train mae: 0.00868 val mae: 0.185
+Epoch: 219/300 --- train mae: 0.00848 val mae: 0.185
+Epoch: 221/300 --- train mae: 0.00863 val mae: 0.185
+Epoch: 223/300 --- train mae: 0.00845 val mae: 0.185
+Epoch: 225/300 --- train mae: 0.0083 val mae: 0.185
+Epoch: 227/300 --- train mae: 0.00831 val mae: 0.185
+Epoch: 229/300 --- train mae: 0.00816 val mae: 0.185
+Epoch: 231/300 --- train mae: 0.0087 val mae: 0.186
+Epoch: 233/300 --- train mae: 0.00869 val mae: 0.184
+Epoch: 235/300 --- train mae: 0.00823 val mae: 0.185
+Epoch: 237/300 --- train mae: 0.00812 val mae: 0.185
+Epoch: 239/300 --- train mae: 0.00795 val mae: 0.186
+Epoch: 241/300 --- train mae: 0.00799 val mae: 0.185
+Epoch: 243/300 --- train mae: 0.00797 val mae: 0.185
+Epoch: 245/300 --- train mae: 0.00801 val mae: 0.184
+Epoch: 247/300 --- train mae: 0.00818 val mae: 0.185
+Epoch: 249/300 --- train mae: 0.00797 val mae: 0.185
+Epoch: 251/300 --- train mae: 0.00769 val mae: 0.184
+Epoch: 253/300 --- train mae: 0.00805 val mae: 0.184
+Epoch: 255/300 --- train mae: 0.0076 val mae: 0.184
+Epoch: 257/300 --- train mae: 0.00782 val mae: 0.185
+Epoch: 259/300 --- train mae: 0.00768 val mae: 0.185
+Epoch: 261/300 --- train mae: 0.00778 val mae: 0.184
+Epoch: 263/300 --- train mae: 0.00805 val mae: 0.186
+Epoch: 265/300 --- train mae: 0.00758 val mae: 0.185
+Epoch: 267/300 --- train mae: 0.00769 val mae: 0.184
+Epoch: 269/300 --- train mae: 0.00782 val mae: 0.185
+Epoch: 271/300 --- train mae: 0.00753 val mae: 0.185
+Epoch: 273/300 --- train mae: 0.00761 val mae: 0.185
+Epoch: 275/300 --- train mae: 0.00733 val mae: 0.185
+Epoch: 277/300 --- train mae: 0.00726 val mae: 0.186
+Epoch: 279/300 --- train mae: 0.00756 val mae: 0.185
+Epoch: 281/300 --- train mae: 0.0074 val mae: 0.185
+Epoch 283 failed to improve.
+Discarded: 1/150 weight updates ♻🗑️
+Epoch: 283/300 --- train mae: 0.00733 val mae: 0.186
+Epoch 285 failed to improve.
+Discarded: 2/150 weight updates ♻🗑️
+Epoch: 285/300 --- train mae: 0.00753 val mae: 0.186
+Epoch: 287/300 --- train mae: 0.0075 val mae: 0.184
+Epoch 289 failed to improve.
+Discarded: 3/150 weight updates ♻🗑️
+Epoch: 289/300 --- train mae: 0.00726 val mae: 0.185
+Epoch 291 failed to improve.
+Discarded: 4/150 weight updates ♻🗑️
+Epoch: 291/300 --- train mae: 0.00747 val mae: 0.187
+Epoch: 293/300 --- train mae: 0.00726 val mae: 0.186
+Epoch 295 failed to improve.
+Discarded: 5/150 weight updates ♻🗑️
+Epoch: 295/300 --- train mae: 0.0075 val mae: 0.186
+Epoch 297 failed to improve.
+Discarded: 6/150 weight updates ♻🗑️
+Epoch: 297/300 --- train mae: 0.00697 val mae: 0.186
+Epoch: 299/300 --- train mae: 0.0073 val mae: 0.185
+Saving checkpoint (jarvis_bandgap_struPred_epoch299_finetune_epoch299) to /home/zd/zd/teaching_net/CrabNet/predict_structurEmbedding/jarvis_bandgap/models/jarvis_bandgap_struPred_epoch299_finetune_epoch299.pth
+Saving network (jarvis_bandgap_struPred_epoch299_finetune) to /home/zd/zd/teaching_net/CrabNet/predict_structurEmbedding/jarvis_bandgap/models/jarvis_bandgap_struPred_epoch299_finetune.pth
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_struPred_epoch299_finetune /home/zd/zd/teaching_net/CrabNet/predict_structurEmbedding/jarvis_bandgap/models
+loading data with up to 7 elements in the formula
+Traceback (most recent call last):
+  File "train_crabnet.py", line 178, in <module>
+    model_train, mae_train, embeddings0 = save_results(data_dir, mat_prop, classification,
+  File "train_crabnet.py", line 111, in save_results
+    model, output = get_results(model)
+  File "train_crabnet.py", line 102, in get_results
+    output = model.predict(model.data_loader)  # predict the data saved here
+  File "/hdd/nas_157/home/zd/zd/teaching_net/CrabNet/crabnet/model.py", line 500, in predict
+    loss = self.criterion(prediction.view(-1),
+AttributeError: 'Model' object has no attribute 'criterion'
+nohup: ignoring input
+=====================================================
+                    jarvis_bandgap                   
+=====================================================
+calculating train mae
+jarvis_bandgap_struPred_epoch299_finetune /home/zd/zd/teaching_net/CrabNet/predict_structurEmbedding/jarvis_bandgap/models
+loading data with up to 7 elements in the formula
+jarvis_bandgap mae: 0.00685
+-----------------------------------------------------
+calculating val mae
+jarvis_bandgap_struPred_epoch299_finetune /home/zd/zd/teaching_net/CrabNet/predict_structurEmbedding/jarvis_bandgap/models
+loading data with up to 7 elements in the formula
+jarvis_bandgap mae: 0.184
+-----------------------------------------------------
+calculating test mae
+jarvis_bandgap_struPred_epoch299_finetune /home/zd/zd/teaching_net/CrabNet/predict_structurEmbedding/jarvis_bandgap/models
+loading data with up to 7 elements in the formula
+jarvis_bandgap mae: 0.2
+=====================================================

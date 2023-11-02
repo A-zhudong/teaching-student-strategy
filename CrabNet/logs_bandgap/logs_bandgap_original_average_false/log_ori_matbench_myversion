@@ -1,0 +1,376 @@
+nohup: ignoring input
+python: can't open file 'train_crabnet.py': [Errno 2] No such file or directory
+nohup: ignoring input
+Property "matbench_mp_bandgap" selected for training
+model_name:  mp_bandgap_ori_matbench_myversion
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Traceback (most recent call last):
+  File "train_crabnet.py", line 166, in <module>
+    model = get_model(data_dir, mat_prop, classification, \
+  File "train_crabnet.py", line 51, in get_model
+    data_size = pd.read_csv(train_data).shape[0]
+  File "/home/zd/anaconda3/envs/coor/lib/python3.8/site-packages/pandas/util/_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zd/anaconda3/envs/coor/lib/python3.8/site-packages/pandas/util/_decorators.py", line 331, in wrapper
+    return func(*args, **kwargs)
+  File "/home/zd/anaconda3/envs/coor/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 950, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/zd/anaconda3/envs/coor/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 605, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/zd/anaconda3/envs/coor/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1442, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/zd/anaconda3/envs/coor/lib/python3.8/site-packages/pandas/io/parsers/readers.py", line 1735, in _make_engine
+    self.handles = get_handle(
+  File "/home/zd/anaconda3/envs/coor/lib/python3.8/site-packages/pandas/io/common.py", line 856, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/home/zd/zd/teaching_net/alignn/alignn/data_formula_atom//matbench_mp_bandgap/train0.csv'
+nohup: ignoring input
+Property "matbench_mp_bandgap" selected for training
+model_name:  mp_bandgap_ori_matbench_myversion
+
+Model architecture: out_dims, d_model, N, heads
+256, 512, 3, 4
+Running on compute device: cuda:0
+Model size: 12381700 parameters
+
+Generating EDM:   0%|          | 0/55388 [00:00<?, ?formulae/s]Generating EDM:  17%|█▋        | 9197/55388 [00:00<00:00, 91958.03formulae/s]Generating EDM:  34%|███▍      | 18868/55388 [00:00<00:00, 94745.10formulae/s]Generating EDM:  53%|█████▎    | 29171/55388 [00:00<00:00, 98525.24formulae/s]Generating EDM:  71%|███████▏  | 39519/55388 [00:00<00:00, 100478.59formulae/s]Generating EDM:  91%|█████████ | 50234/55388 [00:00<00:00, 102879.65formulae/s]Generating EDM: 100%|██████████| 55388/55388 [00:00<00:00, 101002.45formulae/s]
+loading data with up to 8 elements in the formula
+training with batchsize 512 (2**9.000)
+Generating EDM:   0%|          | 0/6148 [00:00<?, ?formulae/s]Generating EDM: 100%|██████████| 6148/6148 [00:00<00:00, 117397.97formulae/s]
+loading data with up to 8 elements in the formula
+stepping every 109 training passes, cycling lr every 1 epochs
+checkin at 2 epochs to match lr scheduler
+Epoch: 0/300 --- train mae: 0.807 val mae: 0.83
+Epoch: 1/300 --- train mae: 0.517 val mae: 0.539
+Epoch: 3/300 --- train mae: 0.437 val mae: 0.471
+Epoch: 5/300 --- train mae: 0.395 val mae: 0.438
+Epoch: 7/300 --- train mae: 0.368 val mae: 0.419
+Epoch: 9/300 --- train mae: 0.346 val mae: 0.407
+Epoch: 11/300 --- train mae: 0.327 val mae: 0.399
+Epoch: 13/300 --- train mae: 0.308 val mae: 0.386
+Epoch: 15/300 --- train mae: 0.294 val mae: 0.379
+Epoch: 17/300 --- train mae: 0.285 val mae: 0.38
+Epoch: 19/300 --- train mae: 0.273 val mae: 0.373
+Epoch: 21/300 --- train mae: 0.26 val mae: 0.363
+Epoch: 23/300 --- train mae: 0.255 val mae: 0.363
+Epoch: 25/300 --- train mae: 0.249 val mae: 0.364
+Epoch: 27/300 --- train mae: 0.243 val mae: 0.36
+Epoch: 29/300 --- train mae: 0.228 val mae: 0.349
+Epoch: 31/300 --- train mae: 0.225 val mae: 0.351
+Epoch: 33/300 --- train mae: 0.219 val mae: 0.349
+Epoch: 35/300 --- train mae: 0.214 val mae: 0.344
+Epoch: 37/300 --- train mae: 0.208 val mae: 0.343
+Epoch: 39/300 --- train mae: 0.205 val mae: 0.345
+Epoch: 41/300 --- train mae: 0.2 val mae: 0.341
+Epoch 43 failed to improve.
+Discarded: 1/150 weight updates ♻🗑️
+Epoch: 43/300 --- train mae: 0.196 val mae: 0.347
+Epoch: 45/300 --- train mae: 0.195 val mae: 0.346
+Epoch: 47/300 --- train mae: 0.189 val mae: 0.343
+Epoch 49 failed to improve.
+Discarded: 2/150 weight updates ♻🗑️
+Epoch: 49/300 --- train mae: 0.186 val mae: 0.345
+Epoch: 51/300 --- train mae: 0.184 val mae: 0.339
+Epoch: 53/300 --- train mae: 0.179 val mae: 0.339
+Epoch: 55/300 --- train mae: 0.176 val mae: 0.336
+Epoch: 57/300 --- train mae: 0.17 val mae: 0.334
+Epoch 59 failed to improve.
+Discarded: 3/150 weight updates ♻🗑️
+Epoch: 59/300 --- train mae: 0.172 val mae: 0.338
+Epoch: 61/300 --- train mae: 0.163 val mae: 0.332
+Epoch: 63/300 --- train mae: 0.165 val mae: 0.333
+Epoch: 65/300 --- train mae: 0.162 val mae: 0.33
+Epoch: 67/300 --- train mae: 0.16 val mae: 0.329
+Epoch: 69/300 --- train mae: 0.155 val mae: 0.327
+Epoch: 71/300 --- train mae: 0.156 val mae: 0.329
+Epoch: 73/300 --- train mae: 0.152 val mae: 0.327
+Epoch: 75/300 --- train mae: 0.145 val mae: 0.323
+Epoch: 77/300 --- train mae: 0.15 val mae: 0.327
+Epoch: 79/300 --- train mae: 0.143 val mae: 0.325
+Epoch: 81/300 --- train mae: 0.144 val mae: 0.324
+Epoch: 83/300 --- train mae: 0.139 val mae: 0.326
+Epoch: 85/300 --- train mae: 0.141 val mae: 0.328
+Epoch 87 failed to improve.
+Discarded: 4/150 weight updates ♻🗑️
+Epoch: 87/300 --- train mae: 0.141 val mae: 0.329
+Epoch 89 failed to improve.
+Discarded: 5/150 weight updates ♻🗑️
+Epoch: 89/300 --- train mae: 0.142 val mae: 0.331
+Epoch: 91/300 --- train mae: 0.133 val mae: 0.325
+Epoch: 93/300 --- train mae: 0.132 val mae: 0.321
+Epoch: 95/300 --- train mae: 0.132 val mae: 0.324
+Epoch: 97/300 --- train mae: 0.131 val mae: 0.325
+Epoch: 99/300 --- train mae: 0.131 val mae: 0.325
+Epoch 101 failed to improve.
+Discarded: 6/150 weight updates ♻🗑️
+Epoch: 101/300 --- train mae: 0.129 val mae: 0.328
+Epoch 103 failed to improve.
+Discarded: 7/150 weight updates ♻🗑️
+Epoch: 103/300 --- train mae: 0.128 val mae: 0.326
+Epoch 105 failed to improve.
+Discarded: 8/150 weight updates ♻🗑️
+Epoch: 105/300 --- train mae: 0.125 val mae: 0.326
+Epoch 107 failed to improve.
+Discarded: 9/150 weight updates ♻🗑️
+Epoch: 107/300 --- train mae: 0.126 val mae: 0.328
+Epoch: 109/300 --- train mae: 0.123 val mae: 0.323
+Epoch: 111/300 --- train mae: 0.124 val mae: 0.319
+Epoch: 113/300 --- train mae: 0.122 val mae: 0.319
+Epoch 115 failed to improve.
+Discarded: 10/150 weight updates ♻🗑️
+Epoch: 115/300 --- train mae: 0.124 val mae: 0.322
+Epoch 117 failed to improve.
+Discarded: 11/150 weight updates ♻🗑️
+Epoch: 117/300 --- train mae: 0.119 val mae: 0.323
+Epoch 119 failed to improve.
+Discarded: 12/150 weight updates ♻🗑️
+Epoch: 119/300 --- train mae: 0.115 val mae: 0.319
+Epoch: 121/300 --- train mae: 0.117 val mae: 0.317
+Epoch: 123/300 --- train mae: 0.112 val mae: 0.313
+Epoch 125 failed to improve.
+Discarded: 13/150 weight updates ♻🗑️
+Epoch: 125/300 --- train mae: 0.116 val mae: 0.321
+Epoch 127 failed to improve.
+Discarded: 14/150 weight updates ♻🗑️
+Epoch: 127/300 --- train mae: 0.112 val mae: 0.317
+Epoch 129 failed to improve.
+Discarded: 15/150 weight updates ♻🗑️
+Epoch: 129/300 --- train mae: 0.112 val mae: 0.318
+Epoch 131 failed to improve.
+Discarded: 16/150 weight updates ♻🗑️
+Epoch: 131/300 --- train mae: 0.111 val mae: 0.316
+Epoch 133 failed to improve.
+Discarded: 17/150 weight updates ♻🗑️
+Epoch: 133/300 --- train mae: 0.109 val mae: 0.321
+Epoch 135 failed to improve.
+Discarded: 18/150 weight updates ♻🗑️
+Epoch: 135/300 --- train mae: 0.109 val mae: 0.318
+Epoch 137 failed to improve.
+Discarded: 19/150 weight updates ♻🗑️
+Epoch: 137/300 --- train mae: 0.11 val mae: 0.319
+Epoch 139 failed to improve.
+Discarded: 20/150 weight updates ♻🗑️
+Epoch: 139/300 --- train mae: 0.108 val mae: 0.319
+Epoch 141 failed to improve.
+Discarded: 21/150 weight updates ♻🗑️
+Epoch: 141/300 --- train mae: 0.108 val mae: 0.32
+Epoch 143 failed to improve.
+Discarded: 22/150 weight updates ♻🗑️
+Epoch: 143/300 --- train mae: 0.106 val mae: 0.319
+Epoch 145 failed to improve.
+Discarded: 23/150 weight updates ♻🗑️
+Epoch: 145/300 --- train mae: 0.104 val mae: 0.318
+Epoch: 147/300 --- train mae: 0.103 val mae: 0.313
+Epoch 149 failed to improve.
+Discarded: 24/150 weight updates ♻🗑️
+Epoch: 149/300 --- train mae: 0.104 val mae: 0.321
+Epoch: 151/300 --- train mae: 0.103 val mae: 0.318
+Epoch 153 failed to improve.
+Discarded: 25/150 weight updates ♻🗑️
+Epoch: 153/300 --- train mae: 0.106 val mae: 0.318
+Epoch: 155/300 --- train mae: 0.0998 val mae: 0.316
+Epoch: 157/300 --- train mae: 0.103 val mae: 0.316
+Epoch: 159/300 --- train mae: 0.1 val mae: 0.313
+Epoch: 161/300 --- train mae: 0.101 val mae: 0.308
+Epoch: 163/300 --- train mae: 0.0981 val mae: 0.311
+Epoch: 165/300 --- train mae: 0.0977 val mae: 0.31
+Epoch 167 failed to improve.
+Discarded: 26/150 weight updates ♻🗑️
+Epoch: 167/300 --- train mae: 0.0986 val mae: 0.314
+Epoch 169 failed to improve.
+Discarded: 27/150 weight updates ♻🗑️
+Epoch: 169/300 --- train mae: 0.0973 val mae: 0.314
+Epoch: 171/300 --- train mae: 0.096 val mae: 0.306
+Epoch 173 failed to improve.
+Discarded: 28/150 weight updates ♻🗑️
+Epoch: 173/300 --- train mae: 0.0972 val mae: 0.312
+Epoch 175 failed to improve.
+Discarded: 29/150 weight updates ♻🗑️
+Epoch: 175/300 --- train mae: 0.0962 val mae: 0.314
+Epoch 177 failed to improve.
+Discarded: 30/150 weight updates ♻🗑️
+Epoch: 177/300 --- train mae: 0.0936 val mae: 0.31
+Epoch 179 failed to improve.
+Discarded: 31/150 weight updates ♻🗑️
+Epoch: 179/300 --- train mae: 0.0949 val mae: 0.311
+Epoch 181 failed to improve.
+Discarded: 32/150 weight updates ♻🗑️
+Epoch: 181/300 --- train mae: 0.0952 val mae: 0.312
+Epoch 183 failed to improve.
+Discarded: 33/150 weight updates ♻🗑️
+Epoch: 183/300 --- train mae: 0.0942 val mae: 0.313
+Epoch 185 failed to improve.
+Discarded: 34/150 weight updates ♻🗑️
+Epoch: 185/300 --- train mae: 0.0916 val mae: 0.309
+Epoch 187 failed to improve.
+Discarded: 35/150 weight updates ♻🗑️
+Epoch: 187/300 --- train mae: 0.0918 val mae: 0.31
+Epoch 189 failed to improve.
+Discarded: 36/150 weight updates ♻🗑️
+Epoch: 189/300 --- train mae: 0.0878 val mae: 0.311
+Epoch 191 failed to improve.
+Discarded: 37/150 weight updates ♻🗑️
+Epoch: 191/300 --- train mae: 0.089 val mae: 0.312
+Epoch 193 failed to improve.
+Discarded: 38/150 weight updates ♻🗑️
+Epoch: 193/300 --- train mae: 0.0892 val mae: 0.312
+Epoch 195 failed to improve.
+Discarded: 39/150 weight updates ♻🗑️
+Epoch: 195/300 --- train mae: 0.0881 val mae: 0.315
+Epoch 197 failed to improve.
+Discarded: 40/150 weight updates ♻🗑️
+Epoch: 197/300 --- train mae: 0.0909 val mae: 0.311
+Epoch 199 failed to improve.
+Discarded: 41/150 weight updates ♻🗑️
+Epoch: 199/300 --- train mae: 0.0888 val mae: 0.31
+Epoch 201 failed to improve.
+Discarded: 42/150 weight updates ♻🗑️
+Epoch: 201/300 --- train mae: 0.0869 val mae: 0.309
+Epoch 203 failed to improve.
+Discarded: 43/150 weight updates ♻🗑️
+Epoch: 203/300 --- train mae: 0.0863 val mae: 0.311
+Epoch 205 failed to improve.
+Discarded: 44/150 weight updates ♻🗑️
+Epoch: 205/300 --- train mae: 0.0854 val mae: 0.312
+Epoch 207 failed to improve.
+Discarded: 45/150 weight updates ♻🗑️
+Epoch: 207/300 --- train mae: 0.0889 val mae: 0.313
+Epoch 209 failed to improve.
+Discarded: 46/150 weight updates ♻🗑️
+Epoch: 209/300 --- train mae: 0.0895 val mae: 0.317
+Epoch: 211/300 --- train mae: 0.0862 val mae: 0.309
+Epoch 213 failed to improve.
+Discarded: 47/150 weight updates ♻🗑️
+Epoch: 213/300 --- train mae: 0.0907 val mae: 0.314
+Epoch 215 failed to improve.
+Discarded: 48/150 weight updates ♻🗑️
+Epoch: 215/300 --- train mae: 0.0885 val mae: 0.314
+Epoch 217 failed to improve.
+Discarded: 49/150 weight updates ♻🗑️
+Epoch: 217/300 --- train mae: 0.0827 val mae: 0.311
+Epoch 219 failed to improve.
+Discarded: 50/150 weight updates ♻🗑️
+Epoch: 219/300 --- train mae: 0.0846 val mae: 0.313
+Epoch 221 failed to improve.
+Discarded: 51/150 weight updates ♻🗑️
+Epoch: 221/300 --- train mae: 0.0854 val mae: 0.311
+Epoch: 223/300 --- train mae: 0.0848 val mae: 0.311
+Epoch: 225/300 --- train mae: 0.0847 val mae: 0.311
+Epoch 227 failed to improve.
+Discarded: 52/150 weight updates ♻🗑️
+Epoch: 227/300 --- train mae: 0.0844 val mae: 0.31
+Epoch 229 failed to improve.
+Discarded: 53/150 weight updates ♻🗑️
+Epoch: 229/300 --- train mae: 0.0809 val mae: 0.313
+Epoch 231 failed to improve.
+Discarded: 54/150 weight updates ♻🗑️
+Epoch: 231/300 --- train mae: 0.0867 val mae: 0.313
+Epoch 233 failed to improve.
+Discarded: 55/150 weight updates ♻🗑️
+Epoch: 233/300 --- train mae: 0.0812 val mae: 0.312
+Epoch 235 failed to improve.
+Discarded: 56/150 weight updates ♻🗑️
+Epoch: 235/300 --- train mae: 0.082 val mae: 0.311
+Epoch 237 failed to improve.
+Discarded: 57/150 weight updates ♻🗑️
+Epoch: 237/300 --- train mae: 0.0774 val mae: 0.311
+Epoch: 239/300 --- train mae: 0.0823 val mae: 0.311
+Epoch: 241/300 --- train mae: 0.0808 val mae: 0.308
+Epoch 243 failed to improve.
+Discarded: 58/150 weight updates ♻🗑️
+Epoch: 243/300 --- train mae: 0.0861 val mae: 0.318
+Epoch: 245/300 --- train mae: 0.0816 val mae: 0.308
+Epoch 247 failed to improve.
+Discarded: 59/150 weight updates ♻🗑️
+Epoch: 247/300 --- train mae: 0.0791 val mae: 0.31
+Epoch: 249/300 --- train mae: 0.0779 val mae: 0.31
+Epoch 251 failed to improve.
+Discarded: 60/150 weight updates ♻🗑️
+Epoch: 251/300 --- train mae: 0.0783 val mae: 0.31
+Epoch: 253/300 --- train mae: 0.0799 val mae: 0.309
+Epoch: 255/300 --- train mae: 0.0829 val mae: 0.314
+Epoch 257 failed to improve.
+Discarded: 61/150 weight updates ♻🗑️
+Epoch: 257/300 --- train mae: 0.0795 val mae: 0.315
+Epoch 259 failed to improve.
+Discarded: 62/150 weight updates ♻🗑️
+Epoch: 259/300 --- train mae: 0.0784 val mae: 0.31
+Epoch 261 failed to improve.
+Discarded: 63/150 weight updates ♻🗑️
+Epoch: 261/300 --- train mae: 0.0753 val mae: 0.309
+Epoch 263 failed to improve.
+Discarded: 64/150 weight updates ♻🗑️
+Epoch: 263/300 --- train mae: 0.0774 val mae: 0.31
+Epoch: 265/300 --- train mae: 0.0809 val mae: 0.309
+Epoch 267 failed to improve.
+Discarded: 65/150 weight updates ♻🗑️
+Epoch: 267/300 --- train mae: 0.0755 val mae: 0.307
+Epoch 269 failed to improve.
+Discarded: 66/150 weight updates ♻🗑️
+Epoch: 269/300 --- train mae: 0.0759 val mae: 0.309
+Epoch 271 failed to improve.
+Discarded: 67/150 weight updates ♻🗑️
+Epoch: 271/300 --- train mae: 0.0761 val mae: 0.311
+Epoch 273 failed to improve.
+Discarded: 68/150 weight updates ♻🗑️
+Epoch: 273/300 --- train mae: 0.0761 val mae: 0.314
+Epoch: 275/300 --- train mae: 0.0727 val mae: 0.312
+Epoch 277 failed to improve.
+Discarded: 69/150 weight updates ♻🗑️
+Epoch: 277/300 --- train mae: 0.0749 val mae: 0.31
+Epoch 279 failed to improve.
+Discarded: 70/150 weight updates ♻🗑️
+Epoch: 279/300 --- train mae: 0.0765 val mae: 0.312
+Epoch: 281/300 --- train mae: 0.0754 val mae: 0.307
+Epoch 283 failed to improve.
+Discarded: 71/150 weight updates ♻🗑️
+Epoch: 283/300 --- train mae: 0.0736 val mae: 0.314
+Epoch 285 failed to improve.
+Discarded: 72/150 weight updates ♻🗑️
+Epoch: 285/300 --- train mae: 0.0766 val mae: 0.31
+Epoch 287 failed to improve.
+Discarded: 73/150 weight updates ♻🗑️
+Epoch: 287/300 --- train mae: 0.0707 val mae: 0.312
+Epoch 289 failed to improve.
+Discarded: 74/150 weight updates ♻🗑️
+Epoch: 289/300 --- train mae: 0.0752 val mae: 0.31
+Epoch 291 failed to improve.
+Discarded: 75/150 weight updates ♻🗑️
+Epoch: 291/300 --- train mae: 0.0795 val mae: 0.314
+Epoch 293 failed to improve.
+Discarded: 76/150 weight updates ♻🗑️
+Epoch: 293/300 --- train mae: 0.0743 val mae: 0.312
+Epoch 295 failed to improve.
+Discarded: 77/150 weight updates ♻🗑️
+Epoch: 295/300 --- train mae: 0.0749 val mae: 0.307
+Epoch 297 failed to improve.
+Discarded: 78/150 weight updates ♻🗑️
+Epoch: 297/300 --- train mae: 0.0742 val mae: 0.31
+Epoch 299 failed to improve.
+Discarded: 79/150 weight updates ♻🗑️
+Epoch: 299/300 --- train mae: 0.0733 val mae: 0.313
+Saving checkpoint (mp_bandgap_ori_matbench_myversion_epoch299) to /home/zd/zd/teaching_net/CrabNet/models/mp_bandgap_models/original_bandgap_average_false/mp_bandgap_ori_matbench_myversion_epoch299.pth
+Saving network (mp_bandgap_ori_matbench_myversion) to /home/zd/zd/teaching_net/CrabNet/models/mp_bandgap_models/original_bandgap_average_false/mp_bandgap_ori_matbench_myversion.pth
+=====================================================
+                 matbench_mp_bandgap                 
+=====================================================
+calculating train mae
+mp_bandgap_ori_matbench_myversion /home/zd/zd/teaching_net/CrabNet/models/mp_bandgap_models/original_bandgap_average_false
+loading data with up to 8 elements in the formula
+matbench_mp_bandgap mae: 0.0629
+-----------------------------------------------------
+calculating val mae
+mp_bandgap_ori_matbench_myversion /home/zd/zd/teaching_net/CrabNet/models/mp_bandgap_models/original_bandgap_average_false
+loading data with up to 8 elements in the formula
+matbench_mp_bandgap mae: 0.298
+-----------------------------------------------------
+calculating test mae
+mp_bandgap_ori_matbench_myversion /home/zd/zd/teaching_net/CrabNet/models/mp_bandgap_models/original_bandgap_average_false
+loading data with up to 8 elements in the formula
+matbench_mp_bandgap mae: 0.283
+=====================================================

@@ -1,0 +1,24 @@
+nohup: ignoring input
+python: can't open file 'train_crabnet.py': [Errno 2] No such file or directory
+nohup: ignoring input
+=====================================================
+                    jarvis_e_form                    
+=====================================================
+calculating train mae
+jarvis_e_form_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_e_form_models/pretrained_models
+loading data with up to 7 elements in the formula
+jarvis_e_form mae: 0.0244
+-----------------------------------------------------
+calculating val mae
+jarvis_e_form_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_e_form_models/pretrained_models
+loading data with up to 6 elements in the formula
+jarvis_e_form mae: 0.0887
+-----------------------------------------------------
+calculating test mae
+jarvis_e_form_ori /home/zd/zd/teaching_net/CrabNet/models/jarvis_e_form_models/pretrained_models
+loading data with up to 7 elements in the formula
+jarvis_e_form mae: 0.0884
+=====================================================
+39777 1310808
+8252624
+embedding saved
