@@ -120,7 +120,9 @@ def save_results(data_dir, mat_prop, classification, file_name, verbose=True,\
         print(f'{mat_prop} mae: {mae:0.3g}')
 
     # save predictions to a csv
-    fname = f'{mat_prop}_{file_name.replace(".csv", "")}_output_chemNet_pre_56_finetune.csv'
+    # fname = f'{mat_prop}_{file_name.replace(".csv", "")}_perov_ori_output_jvpre_CPMpre_mpfinetune.csv'
+    fname = f'{mat_prop}_{file_name.replace(".csv", "")}_perov_ori_output_jvpre_mpfinetune.csv'
+    # fname = f'{mat_prop}_{file_name.replace(".csv", "")}_output_72original.csv'
     to_csv(output[:4], fname, save_path=data_dir)#'/home/zd/zd/teaching_net/CrabNet/melting_point_data/data_train_val')
     return model, mae, embeddings
 
@@ -129,36 +131,51 @@ def save_results(data_dir, mat_prop, classification, file_name, verbose=True,\
 if __name__ == '__main__':
     # Choose the directory where your data is stored
 
-    data_dir = '/home/zd/zd/teaching_net/CrabNet/melting_point_data/'
-    # data_dir = '/home/zd/zd/teaching_net/cgcnn-master/data'
+    # data_dir = '/home/zd/zd/teaching_net/CrabNet/melting_point_data/'
+    # data_dir = '/home/zd/zd/teaching_net/CrabNet/data/100MP'
+    data_dir = r'/home/zd/zd/teaching_net/CrabNet/data/100MP/100MP_4'
     # data_dir = '/home/zd/zd/teaching_net/CrabNet/data/matbench_cv/'
     # data_dir = '/home/zd/zd/teaching_net/alignn/alignn/data_formula_atom/mp_e_form/real_ma_e_form'
-    # data_dir = '/home/zd/zd/teaching_net/alignn/alignn/data_formula_atom/'
+    # data_dir = '/home/zd/zd/teaching_net/alignn/alignn/data_formula_atom/matbench_perovskite'
     # data_dir = '/home/zd/zd/teaching_net/data/jarvis'
     
     # Choose the folder with your materials properties
     # mat_prop = 'example_materials_property'
-    # mat_prop = 'mp_e_form'
-    # prop = 'e_form'
+    mat_prop = 'mp_e_form'
+    prop = 'e_form'
     # mat_prop = f'mp_{prop}'
     # save_model_name = f'{mat_prop}_pretrain_finetune_alpha20'
-    mat_prop = f'data_train_val'
-    save_model_name = f'chemNet_train_56finetune'
+
+    # mat_prop = f'data_train_val'
+    # save_model_name = f'jvpretrain_jvCPM_Embpretrain_100MP_finetune'
+    # save_model_name = f'jvpretrain_jvCPM_Embpretrain_100MP_4_finetune'
+    save_model_name = f'72MPtrain_jvpretrain_72MPfinetune'
+    # save_model_name = f'72MPtrain_original_1'
     # save_model_name = f'mp_{prop}_ori_matbench_myversion_pretrain'
     # save_model_name = f'mp_{prop}_ori_matbench_myversion_pretrain_finetune'
     # save_model_path = f'/home/zd/zd/teaching_net/CrabNet/models/jarvis_bandgap_models/pretrain_models_ratioChange_2dataset'
     # save_model_name = f'jarvis_{prop}_struPred_epoch299_embloss_finetune'
     # save_model_name = f'jarvis_{prop}_struPred_epoch299_finetune'
+    # save_model_name = f'200train_perovsites_jarvisPretrain_{prop}_struPred_epoch299_embloss_finetune'
+    # save_model_name = f'perovsites_{prop}_original_200train'
     # save_model_path = f'/home/zd/zd/teaching_net/CrabNet/models/jarvis_{prop}_models/pretrained_models'
-    # save_model_path = f'/home/zd/zd/teaching_net/CrabNet/models/cgcnn_pretrain_mp_e_form'
-    save_model_path = f'/home/zd/zd/teaching_net/CrabNet/melting_point_data/models'
+    save_model_path = f'/home/zd/zd/teaching_net/CrabNet/models/100data/100data_4/pretrain_on_Jarvis_before_step1'
+    # save_model_path = f'/home/zd/zd/teaching_net/CrabNet/models/100data/100data_1/'
+    # save_model_path = f'/home/zd/zd/teaching_net/CrabNet/melting_point_data/models'
+    # save_model_path = f'/home/zd/zd/teaching_net/CrabNet/models/perovsites_data/models/200train'
+
     # Transfer = None
-    Transfer = '/home/zd/zd/teaching_net/CrabNet/melting_point_data/webscrach_data/models/chemNet_train.pth'
+    # Transfer = '/home/zd/zd/teaching_net/CrabNet/models/perovsites_data/models/perovsites_jarvisPretrain_e_form_struPred_epoch299_embloss_epoch299.pth'
+    Transfer = '/home/zd/zd/teaching_net/CrabNet/models/jarvis_e_form_models/pretrained_models/jarvis_e_form_pretrain_epoch299.pth'
+    # Transfer = '/home/zd/zd/teaching_net/CrabNet/models/100data/pretrain_on_Jarvis_before_step1/jvpretrain_jvCPM_Embpretrain_epoch299.pth'
     # Transfer = f'/home/zd/zd/teaching_net/CrabNet/models/pretrain_models_ratioChange_2dataset/mp_e_form_MPdata_JVpretrain_MPfinetune_ratio1.0.pth'
     # Transfer = f'/home/zd/zd/teaching_net/CrabNet/models/cgcnn_pretrain_mp_e_form/mp_e_form_pretrain_epoch299.pth'  # the path of the pretrained model to be used
     # Transfer = f'/home/zd/zd/teaching_net/CrabNet/predict_structurEmbedding/jarvis_{prop}/models/jarvis_{prop}_struPred_epoch299.pth'
-    embedding_loss = False  # whether to using the embedding to calculate the loss
-    embedding_path = None
+    embedding_loss = True  # whether to using the embedding to calculate the loss
+    # embedding_path = None
+    # embedding_path = '/home/zd/zd/teaching_net/alignn/alignn/data_formula_atom/matbench_perovskite/modeljv_dataPerov_eval_formular_embedding.pkl'
+    # embedding_path = '/home/zd/zd/teaching_net/data/jarvis/jarvis_e_form/jarvis_eval_formula_embedding.pkl'
+    embedding_path = '/home/zd/zd/teaching_net/alignn/alignn/data_formula_atom/mp_e_form/real_ma_e_form/mp_e_form/modelJarvis_dataMP_e_form_eval_formula_embedding.pkl'
     # embedding_path = f'/home/zd/zd/teaching_net/cgcnn-master/data/mp_e_form/cgcnn_e_form_eval_formula_embedding.pkl'
     # embedding_path = f'/home/zd/zd/teaching_net/alignn/alignn/data_formula_atom/matbench_mp_bandgap/matbench_mp_e_form_eval_formula_embedding.pkl'
     pretrain = True  # whether use the pretrained mode of the crab model structure
@@ -197,12 +214,12 @@ if __name__ == '__main__':
                                        'val.csv', verbose=False, model_name=save_model_name,
                                           save_model_path=save_model_path, pretrained=pretrain,
                                           crab_ori_embedding=crab_ori_embedding)
-    # print('-----------------------------------------------------')
-    # print('calculating test mae')
-    # model_test, mae_test, embeddings2 = save_results(data_dir, mat_prop, classification,
-    #                                     'test.csv', verbose=False, model_name=save_model_name,
-    #                                       save_model_path=save_model_path, pretrained=pretrain,
-    #                                       crab_ori_embedding=crab_ori_embedding)
+    print('-----------------------------------------------------')
+    print('calculating test mae')
+    model_test, mae_test, embeddings2 = save_results(data_dir, mat_prop, classification,
+                                        'test.csv', verbose=False, model_name=save_model_name,
+                                          save_model_path=save_model_path, pretrained=pretrain,
+                                          crab_ori_embedding=crab_ori_embedding)
     print('=====================================================')
     # embeddings0.update(embeddings1)
     # embeddings0.update(embeddings2)

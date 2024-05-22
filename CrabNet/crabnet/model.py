@@ -237,6 +237,7 @@ class Model():
                 # embs_alignn = torch.cat(self.calculate_embedding(formula, device=output.device), dim=0).to(self.compute_device)
                 loss_emb = self.criterion_emb(embs_carbnet.squeeze(), embs_alignn.squeeze())
                 alpha = 20      # default 6
+                # alpha = 6
                 beta = 1
                 if self.pretrain and not self.finetune:
                     beta = 0
@@ -541,6 +542,7 @@ class Model():
             path = os.path.join(self.save_path, f'{model_name}.pth')
             print(f'Saving network ({model_name}) to {path}')
         else:
+            os.makedirs(self.save_path, exist_ok=True)
             path = os.path.join(self.save_path, f'{model_name}.pth')
             print(f'Saving checkpoint ({model_name}) to {path}')
 
